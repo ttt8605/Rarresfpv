@@ -15,6 +15,7 @@
     font-family:'Roboto', sans-serif;
     font-weight: 700;
     font-size: 35px;
+    margin-top: 10px;
 }
 
 #hyperlinks{
@@ -56,9 +57,14 @@ main{
     margin-top: 80px;
 }
 
+#overallCard{
+ border-radius: 10px;;
+}
+
 .card-body {
     background-color: #9AD2FA;
-    border-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .card-title {
@@ -96,7 +102,10 @@ main{
 #footer{
     color:#FFD166;
     font-family:'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 15px;
+    position: relative;
+    top: 190px;
+    display: block;
 }
 
