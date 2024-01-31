@@ -222,3 +222,14 @@ main{
           width: 467px;
      
 }
+
+#footer{
+     color:#FFD166;
+     font-family:'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 15px;
+     position: relative;
+     top: 190px;
+     display: block;
+ }
+ 
