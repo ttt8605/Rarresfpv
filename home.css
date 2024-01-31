@@ -17,12 +17,13 @@ body {
      font-size: 35px;
 }
 
-#quick-links {
+#hyperlinks {
      color: #9AD2FA;
      margin-top: 40px;
 }
 
-h3 {
+/* am inlocuit h3 cu hl */
+.hl {
      margin-left: 40px;
      margin-right: 40px;
      font-family:'Roboto',sans-serif;
@@ -30,13 +31,12 @@ h3 {
      font-size:larger;
 }
 
-/* ca sa scot markup ul de la link-uri */
 a {
      text-decoration: none;
      color:#9AD2FA;
 }
 
-.home {
+#home {
      border-bottom-style: solid;
      border-bottom-color:#9AD2FA ;
      border-bottom-width: 2px;
