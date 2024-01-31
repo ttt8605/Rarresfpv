@@ -6,6 +6,7 @@
 body{
     
      background-color: #252525;
+ 
 }
 
 #title{
@@ -41,4 +42,55 @@ h3{
      text-align: center;
      padding-bottom: 10px;
      
+}
+
+main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.img1{
+     background-color: #9AD2FA;
+     width: 900px;
+     height: 300px;
+     margin-top: 80px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     text-align: center;
+     background-image: url('/Users/elonmusk/Documents/raresweb/Rarresfpv/poze/wp10467075.jpg');
+     background-size: cover; /* You can use other values like 'contain' or specific dimensions */
+     background-position: center; /* You can adjust the positioning as needed */
+     background-repeat: no-repeat; /* Prevent the image from repeating if it's smaller than the div */
+   }
+
+
+.img1Text{
+     font-family: 'Roboto',sans-serif;
+     font-weight: 400;
+     font-size: medium;
+     color: #252525;
+     margin-right: 20px;
+     display: block;
+     position: relative;
+     top: 65px;
+     left: 70px;
+    
+}
+
+.img1Button{
+     background-color: #FFD166;
+     color: #252525;
+     border-radius: 12px;
+     width: 230px;
+     height: 35px;
+     border-style: none;
+display: block;
+position: relative;
+top: 116px;
+right: 360px;
+
 }
