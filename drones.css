@@ -45,10 +45,53 @@
 
 main{
     display: flex;
+    flex-direction: row !important;
     justify-content: center;
     align-items: center;
 }
 
+#drone{
+    width: 470px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.card-body {
+    background-color: #9AD2FA;
+    border-radius: 5px;
+}
+
+.card-title {
+    position: relative;
+    display: block;
+    top: -47px;
+}
+
+#button {
+    background-color: #FFD166;
+    color: #252525;
+    border-radius: 12px;
+    width: 50px;
+    height: 32px;
+    border-style: none;
+    display: block;
+    position: relative;
+    top: -87px;
+    left: 362px;
+}
+
+#img1 {
+    /* background-image: url('https://raw.githubusercontent.com/ttt8605/Rarresfpv/main/poze/wp10467059.jpg'); */
+    height: 340px;
+}
+
+#img2 {
+    height: 340px;
+}
+
+#img3 {
+    height: 340px;
+}
 
 #footer{
     color:#FFD166;
@@ -56,3 +99,4 @@ main{
     font-weight: 500;
     font-size: 15px;
 }
+
