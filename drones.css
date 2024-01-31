@@ -8,6 +8,7 @@
     color: #FFD166;
     border-bottom-style: solid;
     border-bottom-color:#FFD166 ;
+    border-bottom-width: 2px;
     width: 235px;
     text-align: center;
     padding-bottom: 10px;
@@ -27,4 +28,24 @@
      font-family:'Roboto', sans-serif;
      font-weight: 400;
      font-size:larger;
+}
+
+a {
+    text-decoration: none;
+    color: #9AD2FA;
+}
+
+#drones {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+     border-bottom-color:#9AD2FA ;
+     text-align: center;
+     padding-bottom: 10px;
+}
+
+#footer{
+    color:#FFD166;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 }

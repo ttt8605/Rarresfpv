@@ -8,6 +8,7 @@ body {
      color: #FFD166;
      border-bottom-style: solid;
      border-bottom-color:#FFD166 ;
+     border-bottom-width: 2px;
      width: 235px;
      text-align: center;
      padding-bottom: 10px;
@@ -29,9 +30,16 @@ h3 {
      font-size:larger;
 }
 
+/* ca sa scot markup ul de la link-uri */
+a {
+     text-decoration: none;
+     color:#9AD2FA;
+}
+
 .home {
      border-bottom-style: solid;
      border-bottom-color:#9AD2FA ;
+     border-bottom-width: 2px;
      text-align: center;
      padding-bottom: 10px;
 }
@@ -53,7 +61,7 @@ main{
      justify-content: center;
      align-items:center;
      text-align: center;
-     background-image: url('/Users/elonmusk/Documents/raresweb/Rarresfpv/poze/wp10467075.jpg');
+     background-image: url('/Users/teodoraroibu/Documents/Rarres FPV site/Rarresfpv/poze/wp10467075.jpg');    /* rezolva path urile pt poze */
      background-size: cover; /* You can use other values like 'contain' or specific dimensions */
      background-position: center; /* You can adjust the positioning as needed */
      background-repeat: no-repeat; /* Prevent the image from repeating if it's smaller than the div */
