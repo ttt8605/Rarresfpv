@@ -6,14 +6,25 @@
 
 #title {
     color: #FFD166;
-    font-family: 'Roboto';
-    font-weight:700;
-    font-size: 1em;
+    border-bottom-style: solid;
+    border-bottom-color:#FFD166 ;
+    width: 235px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
 }
 
-.hl{
+#hyperlinks{
     color: #9AD2FA;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 1em;
+    margin-top: 40px;
+}
+
+.hl {
+    margin-left: 40px;
+     margin-right: 40px;
+     font-family:'Roboto', sans-serif;
+     font-weight: 400;
+     font-size:larger;
 }
