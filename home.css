@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
 
-
-
-
-
 body {
   background-color: #252525;
-
 }
 
 #title {
      color: #FFD166;
      border-bottom-style: solid;
      border-bottom-color:#FFD166 ;
+     border-bottom-width: 2px;
      width: 235px;
      text-align: center;
      padding-bottom: 10px;
@@ -21,12 +17,13 @@ body {
      font-size: 35px;
 }
 
-#quick-links {
+#hyperlinks {
      color: #9AD2FA;
      margin-top: 40px;
 }
 
-h3 {
+/* am inlocuit h3 cu hl */
+.hl {
      margin-left: 40px;
      margin-right: 40px;
      font-family:'Roboto',sans-serif;
@@ -34,13 +31,17 @@ h3 {
      font-size:larger;
 }
 
-.home {
+a {
+     text-decoration: none;
+     color:#9AD2FA;
+}
+
+#home {
      border-bottom-style: solid;
      border-bottom-color:#9AD2FA ;
+     border-bottom-width: 2px;
      text-align: center;
      padding-bottom: 10px;
-
-     
 }
 
 main{
@@ -60,7 +61,7 @@ main{
      justify-content: center;
      align-items:center;
      text-align: center;
-     background-image: url('/Users/elonmusk/Documents/raresweb/Rarresfpv/poze/wp10467075.jpg');
+     background-image: url('/Users/teodoraroibu/Documents/Rarres FPV site/Rarresfpv/poze/wp10467075.jpg');    /* rezolva path urile pt poze */
      background-size: cover; /* You can use other values like 'contain' or specific dimensions */
      background-position: center; /* You can adjust the positioning as needed */
      background-repeat: no-repeat; /* Prevent the image from repeating if it's smaller than the div */
@@ -77,7 +78,6 @@ main{
      position: relative;
      top: 65px;
      left: 70px;
-    
 }
 
 .img1Button{
@@ -87,11 +87,10 @@ main{
      width: 230px;
      height: 35px;
      border-style: none;
-display: block;
-position: relative;
-top: 116px;
-right: 360px;
-
+     display: block;
+     position: relative;
+     top: 116px;
+     right: 360px;
 }
 
 
