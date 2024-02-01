@@ -15,6 +15,7 @@ body {
      font-family:'Roboto', sans-serif;
      font-weight: 700;
      font-size: 35px;
+     margin-top: 10px;
 }
 
 #hyperlinks {
@@ -28,7 +29,7 @@ body {
      margin-right: 40px;
      font-family:'Roboto',sans-serif;
      font-weight: 400;
-     font-size:18px;
+     font-size: larger;
 }
 
 a {
