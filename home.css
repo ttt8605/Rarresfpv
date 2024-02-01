@@ -232,4 +232,700 @@ main{
      top: 190px;
      display: block;
  }
- 
+
+
+
+/* ------------AVERAGE-------------------------------------------------------------- */
+
+ @media(min-width:360px){
+
+
+
+
+
+     #title {
+        
+          border-bottom-width: 2px;
+          width: 125px;
+          text-align: center;
+          padding-bottom: 10px;
+          font-weight: 700;
+          font-size: 17px;
+     }
+     
+     #hyperlinks {
+          margin-top: 40px;
+     }
+     
+     /* am inlocuit h3 cu hl */
+     .hl {
+          margin-left: 33px;
+          margin-right: 31px;
+          font-weight: 400;
+          font-size:14px;
+     }
+     
+     
+     
+     #home {
+         
+          border-bottom-width: 1px;
+          text-align: center;
+          padding-bottom: 8px;
+     }
+     
+     
+     
+     .img1{
+     
+          width: 742px;
+          height: 337px;
+          margin-top: 55px;
+          border-radius: 10px;
+         
+        }
+     
+     
+     .img1Text{
+          font-weight: 400;
+          font-size: small;
+          margin-right: 20px;
+          top: 71px;
+          left: 82px;
+     }
+     
+     .img1Button{
+         
+          border-radius: 10px;
+          width: 200px;
+          height: 35px;
+          top: 116px;
+          right: 298px;
+     }
+     
+     
+     
+     
+     .img2{
+          background-color: #9AD2FA;
+          width: 612px;
+          height: 280px;
+          margin-top: 63px;
+     }
+     
+        .img2Button{
+         
+          border-radius: 12px;
+          width: 49px;
+          height: 35px;
+         top: 222px;
+         left: 437px;
+     
+     }
+     .img2Text{
+      
+          font-weight: 400;
+          font-size:small;
+          margin-right: 20px;
+          top: 243px;
+          left: 33px;
+         
+     }
+     
+     
+     .img3{
+          background-color: #9AD2FA;
+          width: 612px;
+          height: 280px;
+          margin-top: 63px;
+     }
+     
+        .img3Button{
+         
+          border-radius: 12px;
+          width: 49px;
+          height: 35px;
+         top: 222px;
+         left: 437px;
+     
+     }
+     .img3Text{
+      
+          font-weight: 400;
+          font-size:small;
+          margin-right: 20px;
+          top: 243px;
+          left: 33px;
+         
+     }
+     
+     
+     .abtMe{
+          font-weight: 400;
+          font-size:16px;
+          top: 100px;
+          right: 258px;
+          padding-right:25px;
+          padding-bottom: 2px;
+         
+     }
+     
+     
+     
+     .profile{
+          width: 155px;
+          height:178px;
+          top: 181px;
+          right: 232px;
+     }
+     
+     
+     .profileText{
+          
+               font-weight: 400;
+               font-size: small;
+               margin-right: 20px;
+               top: 32px;
+               left: 138px;
+               width: 349px;
+          
+     }
+     
+     #footer{
+          
+          font-family:'Roboto', sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+          position: relative;
+          top: 190px;
+          display: block;
+      }
+     
+     
+
+
+
+
+ }
+
+/* 
+-----------------NORMAL SCREENS-------------------------------------------------------- */
+
+
+ @media(min-width:768px){
+
+
+
+
+     #title {
+        
+          border-bottom-width: 2px;
+          width: 175px;
+          text-align: center;
+          padding-bottom: 10px;
+          font-weight: 700;
+          font-size: 25px;
+     }
+     
+     #hyperlinks {
+          margin-top: 40px;
+     }
+     
+     /* am inlocuit h3 cu hl */
+     .hl {
+          margin-left: 40px;
+          margin-right: 40px;
+          font-weight: 400;
+          font-size:16px;
+     }
+     
+     
+     
+     #home {
+         
+          border-bottom-width: 1px;
+          text-align: center;
+          padding-bottom: 8px;
+     }
+     
+     
+     
+     .img1{
+     
+          width: 742px;
+          height: 337px;
+          margin-top: 55px;
+          border-radius: 10px;
+         
+        }
+     
+     
+     .img1Text{
+          font-weight: 400;
+          font-size: small;
+          margin-right: 20px;
+          top: 71px;
+          left: 82px;
+     }
+     
+     .img1Button{
+         
+          border-radius: 10px;
+          width: 200px;
+          height: 35px;
+          top: 116px;
+          right: 298px;
+     }
+     
+     
+     
+     
+     .img2{
+          background-color: #9AD2FA;
+          width: 612px;
+          height: 280px;
+          margin-top: 63px;
+     }
+     
+        .img2Button{
+         
+          border-radius: 12px;
+          width: 49px;
+          height: 35px;
+         top: 222px;
+         left: 437px;
+     
+     }
+     .img2Text{
+      
+          font-weight: 400;
+          font-size:small;
+          margin-right: 20px;
+          top: 243px;
+          left: 33px;
+         
+     }
+     
+     
+     .img3{
+          background-color: #9AD2FA;
+          width: 612px;
+          height: 280px;
+          margin-top: 63px;
+     }
+     
+        .img3Button{
+         
+          border-radius: 12px;
+          width: 49px;
+          height: 35px;
+         top: 222px;
+         left: 437px;
+     
+     }
+     .img3Text{
+      
+          font-weight: 400;
+          font-size:small;
+          margin-right: 20px;
+          top: 243px;
+          left: 33px;
+         
+     }
+     
+     
+     .abtMe{
+          font-weight: 400;
+          font-size:16px;
+          top: 100px;
+          right: 258px;
+          padding-right:25px;
+          padding-bottom: 2px;
+         
+     }
+     
+     
+     
+     .profile{
+          width: 155px;
+          height:178px;
+          top: 181px;
+          right: 232px;
+     }
+     
+     
+     .profileText{
+          
+               font-weight: 400;
+               font-size: small;
+               margin-right: 20px;
+               top: 32px;
+               left: 138px;
+               width: 349px;
+          
+     }
+     
+     #footer{
+          
+          font-family:'Roboto', sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+          position: relative;
+          top: 190px;
+          display: block;
+      }
+     
+     
+     
+     
+     
+     
+      }
+
+
+/* --------------BIG SCREENS----------------------------------------------------------- */
+
+
+      @media(min-width:1024px){
+
+
+
+
+          #title {
+             
+               border-bottom-width: 2px;
+               width: 235px;
+               text-align: center;
+               padding-bottom: 10px;
+               font-weight: 700;
+               font-size: 35px;
+          }
+          
+          #hyperlinks {
+               margin-top: 40px;
+          }
+          
+          /* am inlocuit h3 cu hl */
+          .hl {
+               margin-left: 40px;
+               margin-right: 40px;
+               font-weight: 400;
+               font-size:18px;
+          }
+          
+          
+          
+          #home {
+              
+               border-bottom-width: 2px;
+               text-align: center;
+               padding-bottom: 10px;
+          }
+          
+          
+          
+          .img1{
+          
+               width: 900px;
+               height: 350px;
+               margin-top: 80px;
+               border-radius: 10px;
+              
+             }
+          
+          
+          .img1Text{
+               font-weight: 400;
+               font-size: medium;
+               margin-right: 20px;
+               top: 65px;
+               left: 70px;
+          }
+          
+          .img1Button{
+              
+               border-radius: 12px;
+               width: 230px;
+               height: 35px;
+               top: 116px;
+               right: 360px;
+          }
+          
+          
+          
+          
+          .img2{
+               background-color: #9AD2FA;
+               width: 750px;
+               height: 310px;
+               margin-top: 80px;
+          }
+          
+             .img2Button{
+              
+               border-radius: 12px;
+               width: 49px;
+               height: 35px;
+              top: 250px;
+              left: 580px;
+          
+          }
+          .img2Text{
+           
+               font-weight: 400;
+               font-size:small;
+               margin-right: 20px;
+               top: 266px;
+               left: 33px;
+              
+          }
+          
+          
+          .img3{
+               width: 750px;
+               height: 310px;
+               margin-top: 80px;
+               border-radius: 10px;
+          }
+          
+             .img3Button{
+          
+               color: #252525;
+               border-radius: 12px;
+               width: 49px;
+               height: 35px;
+              top: 250px;
+              left: 580px;
+          
+          }
+          .img3Text{
+               font-size:small;
+               color: #252525;
+               margin-right: 20px;
+               top: 266px;
+               left: 33px;
+              
+          }
+          
+          
+          .abtMe{
+               font-weight: 400;
+               font-size:18px;
+               top: 100px;
+               right: 310px;
+               padding-right: 40px;
+               padding-bottom: 5px;
+              
+          }
+          
+          
+          
+          .profile{
+               width: 200px;
+               height: 200px;
+               top: 181px;
+               right: 273px;
+          }
+          
+          
+          .profileText{
+               
+                    font-weight: 400;
+                    font-size: medium;
+                    margin-right: 20px;
+                    top: 7px;
+                    left: 180px;
+                    width: 467px;
+               
+          }
+          
+          #footer{
+               
+               font-family:'Roboto', sans-serif;
+               font-weight: 400;
+               font-size: 15px;
+               position: relative;
+               top: 190px;
+               display: block;
+           }
+          
+          
+          
+          
+          
+          
+           }
+
+
+
+           /* -----REALLLYYY BIG SCREEEENS-------------------------------------------------- */
+
+           @media(min-width:1200px){
+
+
+
+
+               #title {
+                  
+                    border-bottom-width: 2px;
+                    width: 235px;
+                    text-align: center;
+                    padding-bottom: 10px;
+                    font-weight: 700;
+                    font-size: 35px;
+               }
+               
+               #hyperlinks {
+                    margin-top: 40px;
+               }
+               
+               /* am inlocuit h3 cu hl */
+               .hl {
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    font-weight: 400;
+                    font-size:18px;
+               }
+               
+               
+               
+               #home {
+                   
+                    border-bottom-width: 2px;
+                    text-align: center;
+                    padding-bottom: 10px;
+               }
+               
+               
+               
+               .img1{
+               
+                    width: 900px;
+                    height: 350px;
+                    margin-top: 80px;
+                    border-radius: 10px;
+                   
+                  }
+               
+               
+               .img1Text{
+                    font-weight: 400;
+                    font-size: medium;
+                    margin-right: 20px;
+                    top: 65px;
+                    left: 70px;
+               }
+               
+               .img1Button{
+                   
+                    border-radius: 12px;
+                    width: 230px;
+                    height: 35px;
+                    top: 116px;
+                    right: 360px;
+               }
+               
+               
+               
+               
+               .img2{
+                    background-color: #9AD2FA;
+                    width: 750px;
+                    height: 310px;
+                    margin-top: 80px;
+               }
+               
+                  .img2Button{
+                   
+                    border-radius: 12px;
+                    width: 49px;
+                    height: 35px;
+                   top: 250px;
+                   left: 580px;
+               
+               }
+               .img2Text{
+                
+                    font-weight: 400;
+                    font-size:small;
+                    margin-right: 20px;
+                    top: 266px;
+                    left: 33px;
+                   
+               }
+               
+               
+               .img3{
+                    width: 750px;
+                    height: 310px;
+                    margin-top: 80px;
+                    border-radius: 10px;
+               }
+               
+                  .img3Button{
+               
+                    color: #252525;
+                    border-radius: 12px;
+                    width: 49px;
+                    height: 35px;
+                   top: 250px;
+                   left: 580px;
+               
+               }
+               .img3Text{
+                    font-size:small;
+                    color: #252525;
+                    margin-right: 20px;
+                    top: 266px;
+                    left: 33px;
+                   
+               }
+               
+               
+               .abtMe{
+                    font-weight: 400;
+                    font-size:18px;
+                    top: 100px;
+                    right: 310px;
+                    padding-right: 40px;
+                    padding-bottom: 5px;
+                   
+               }
+               
+               
+               
+               .profile{
+                    width: 200px;
+                    height: 200px;
+                    top: 181px;
+                    right: 273px;
+               }
+               
+               
+               .profileText{
+                    
+                         font-weight: 400;
+                         font-size: medium;
+                         margin-right: 20px;
+                         top: 7px;
+                         left: 180px;
+                         width: 467px;
+                    
+               }
+               
+               #footer{
+                    
+                    font-family:'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    position: relative;
+                    top: 190px;
+                    display: block;
+                }
+               
+               
+               
+               
+               
+               
+                }
