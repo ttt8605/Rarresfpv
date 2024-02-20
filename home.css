@@ -1,48 +1,45 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
 
 body {
   background-color: #252525;
 }
 
-#title {
-     color: #FFD166;
-     border-bottom-style: solid;
-     border-bottom-color:#FFD166 ;
-     border-bottom-width: 2px;
-     width: 235px;
-     text-align: center;
-     padding-bottom: 10px;
-     font-family:'Roboto', sans-serif;
-     font-weight: 700;
-     font-size: 35px;
-     margin-top: 10px;
+.header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
 }
 
-#hyperlinks {
-     color: #9AD2FA;
-     margin-top: 40px;
+.social{
+     width: 200px;
 }
-
-/* am inlocuit h3 cu hl */
-.hl {
-     margin-left: 40px;
-     margin-right: 40px;
-     font-family:'Roboto',sans-serif;
-     font-weight: 400;
-     font-size: larger;
+.pages{
+     width: 289px;
+     
+    
 }
-
-a {
+.media{
+     margin-left: 20px;
+     color: #3A8AC3;
+}
+.fastLinks{
+     margin-right: 20px;
      text-decoration: none;
-     color:#9AD2FA;
+     color: #3A8AC3;
+     font-family: 'Roboto',sans-serif;
+     font-weight: 300;
+     font-size:17px;
 }
 
-#home {
-     border-bottom-style: solid;
-     border-bottom-color:#9AD2FA ;
-     border-bottom-width: 2px;
-     text-align: center;
-     padding-bottom: 10px;
+.but1{
+     background-color: #FFD166;
+     color: #252525;
+     border-radius: 12px;
+     width: 116px;
+     height: 40px;
+     border-style: none;
 }
 
 main{
@@ -51,18 +48,41 @@ main{
      align-items: center;
      flex-direction: column;
 }
+.title {
+     color: #d9d9d9;
+     width: 235px;
+     text-align: center;
+     font-family:'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 35px;
+     margin-top: 100px;
+}
+
+.profile{
+     height: 270px;
+     margin-top: 53px;
+}
+
+.profileText{
+     
+     font-family: 'Roboto',sans-serif;
+     font-weight: 400;
+     font-size: 15px;
+     color: #d9d9d9;
+     width: 526px;
+     margin-top: 66px;
+}
 
 
 .img1{
      background-color: #9AD2FA;
-     width: 900px;
-     height: 350px;
+     width: 100%;
+     height: 455px;
      margin-top: 80px;
-     border-radius: 10px;
+   
      display: flex;
-     justify-content: center;
-     align-items:center;
-     text-align: center;
+     justify-content: flex-start;
+     align-items:flex-start;
      background-image: url('https://raw.githubusercontent.com/ttt8605/Rarresfpv/main/poze/wp10467075.jpg');    /* rezolva path urile pt poze */
      background-size: cover; /* You can use other values like 'contain' or specific dimensions */
      background-position: center; /* You can adjust the positioning as needed */
@@ -70,38 +90,23 @@ main{
    }
 
 
-.img1Text{
+   .img1Text{
      font-family: 'Roboto',sans-serif;
      font-weight: 400;
-     font-size: medium;
-     color: #252525;
+     font-size: 14px;
+     color: #d9d9d9;
      margin-right: 20px;
-     display: block;
      position: relative;
-     top: 65px;
-     left: 70px;
+     top: 350px;
+     left: 43px;
+     width: 416px;
 }
-
-.img1Button{
-     background-color: #FFD166;
-     color: #252525;
-     border-radius: 12px;
-     width: 230px;
-     height: 35px;
-     border-style: none;
-     display: block;
-     position: relative;
-     top: 116px;
-     right: 360px;
-}
-
-
 
 
 .img2{
      background-color: #9AD2FA;
-     width: 750px;
-     height: 310px;
+     width: 50%;
+    height: 379px;
      margin-top: 80px;
      border-radius: 10px;
      display: flex;
@@ -118,33 +123,34 @@ main{
      background-color: #FFD166;
      color: #252525;
      border-radius: 12px;
-     width: 49px;
+     width: 117px;
      height: 35px;
      border-style: none;
      display: block;
      position: relative;
-    top: 250px;
-    left: 580px;
+    top: 315px;
+    left: -80px;
 
 }
 .img2Text{
      font-family: 'Roboto',sans-serif;
      font-weight: 400;
-     font-size:small;
+     font-size:15px;
      color: #d0d0d0;
      margin-right: 20px;
      display: block;
      position: relative;
-     top: 266px;
+     top: 43px;
      left: 33px;
     
 }
 
 
+
 .img3{
      background-color: #9AD2FA;
-     width: 750px;
-     height: 310px;
+     width: 50%;
+    height: 379px;
      margin-top: 80px;
      border-radius: 10px;
      display: flex;
@@ -161,948 +167,89 @@ main{
      background-color: #FFD166;
      color: #252525;
      border-radius: 12px;
-     width: 49px;
+     width: 117px;
      height: 35px;
      border-style: none;
      display: block;
      position: relative;
-    top: 250px;
-    left: 580px;
+    top: 315px;
+    left: -80px;
 
 }
 .img3Text{
      font-family: 'Roboto',sans-serif;
      font-weight: 400;
-     font-size:small;
-     color: #252525;
+     font-size:15px;
+     color: #d0d0d0;
      margin-right: 20px;
      display: block;
      position: relative;
-     top: 266px;
+     top: 43px;
      left: 33px;
     
 }
 
+.smallSection{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     margin-top: 30px;
 
-.abtMe{
-     font-family:'Roboto',sans-serif;
+}
+.line{
+     width: 50%;
+     color: #d9d9d9;
+    
+}
+.line2{
+     width: 50%;
+     color: #d9d9d9;
+}
+
+.boutMe{
+     font-family: 'Roboto',sans-serif;
      font-weight: 400;
-     font-size:18px;
-     position: relative;
-     top: 100px;
-     right: 310px;
-     color: #9AD2FA;
-     padding-right: 40px;
-     padding-bottom: 5px;
-     border-bottom-style: solid ;
-     border-bottom-color:#9AD2FA ;
+     font-size:15px;
+     color: #3A8AC3;
+     width: 172px;
+     margin: 20px;
+     padding: 10px;
+     border-color: #3A8AC3;
+     border-style: solid;
+     border-width: 1px;
+     border-radius: 10px;
+     text-align: center;
+}
+
+.boutMeText{
+     font-family: 'Roboto',sans-serif;
+     font-weight: 400;
+     font-size:17px;
+     color: #d0d0d0;
+     width: 40%;
+     text-align: center;
+     margin-top: 40px;
+   
+    
 }
 
 
+.footer{
+     margin-top: 40px;
+}
 
-.profile{
+.footerText{
+     font-family: 'Roboto',sans-serif;
+     font-weight: 400;
+     font-size:14px;
+     color: #3A8AC3;
+     text-align: center;
+
+}
+
+.social2{
      width: 200px;
-     height: 200px;
-     position: relative;
-     top: 181px;
-     right: 273px;
+     margin-left: 13px;
 }
-
-
-.profileText{
-     
-          font-family: 'Roboto',sans-serif;
-          font-weight: 400;
-          font-size: medium;
-          color: #9AD2FA;
-          margin-right: 20px;
-          display: block;
-          position: relative;
-          top: 7px;
-          left: 180px;
-          width: 467px;
-     
-}
-
-#footer{
-     color:#FFD166;
-     font-family:'Roboto', sans-serif;
-     font-weight: 400;
-     font-size: 15px;
-     position: relative;
-     top: 190px;
-     display: block;
- }
-
- @media(min-width:370px){
-
-
-
-
-
-     #title {
-        
-          border-bottom-width: 2px;
-          width: 125px;
-          text-align: center;
-          padding-bottom: 10px;
-          font-weight: 700;
-          font-size: 17px;
-     }
-     
-     #hyperlinks {
-          margin-top: 40px;
-     }
-     
-     /* am inlocuit h3 cu hl */
-     .hl {
-          margin-left: 33px;
-          margin-right: 31px;
-          font-weight: 400;
-          font-size:14px;
-     }
-     
-     
-     
-     #home {
-         
-          border-bottom-width: 1px;
-          text-align: center;
-          padding-bottom: 8px;
-     }
-     
-     
-     
-     .img1{
-     
-          width: 342px;
-          height: 210px;
-          margin-top: 55px;
-          border-radius: 10px;
-         
-        }
-     
-     
-     .img1Text{
-          font-weight: 400;
-          font-size: 10px;
-          margin-right: 20px;
-          top: 36px;
-          left: 41px;
-     }
-     
-     .img1Button{
-         
-          border-radius: 7px;
-          width: 170px;
-          height: 23px;
-          top: 75px;
-          right: 139px;
-          font-size: 8px;
-     }
-     
-     
-     
-     
-     .img2{
-          background-color: #9AD2FA;
-          width: 300px;
-          height: 155px;
-          margin-top: 42px;
-     }
-     
-        .img2Button{
-         
-          border-radius: 12px;
-          width: 30px;
-          height: 29px;
-         top: 116px;
-         left: 176px;
-         font-size: 11px;
-     
-     }
-     .img2Text{
-      
-          font-weight: 400;
-          font-size:11px;
-          margin-right: 20px;
-          top: 128px;
-          left: 13px;
-         
-     }
-     
-     
-     .img3{
-          background-color: #9AD2FA;
-          width: 300px;
-          height: 155px;
-          margin-top: 42px;
-     }
-     
-        .img3Button{
-         
-          border-radius: 12px;
-          width: 30px;
-          height: 29px;
-         top: 116px;
-         left: 176px;
-         font-size: 11px;
-     
-     }
-     .img3Text{
-      
-          font-weight: 400;
-          font-size:11px;
-          margin-right: 20px;
-          top: 128px;
-          left: 13px;
-         
-     }
-     
-     
-     .abtMe{
-          font-weight: 400;
-          font-size:14px;
-          top: 60px;
-          right: 103px;
-          padding-right:15px;
-          padding-bottom: 2px;
-         
-     }
-     
-     
-     
-     .profile{
-          width: 125px;
-          height:178px;
-          top: 85px;
-          right: 106px;
-     }
-     
-     
-     .profileText{
-          
-               font-weight: 400;
-               font-size: 10px;
-               margin-right: 20px;
-               top: -70px;
-               left: 84px;
-               width: 187px;
-          
-     }
-     
-     #footer{
-          
-          font-family:'Roboto', sans-serif;
-          font-weight: 400;
-          font-size: 12px;
-          position: relative;
-          top: -8px;
-          display: block;
-      }
-     
-     
-
-
-
-
- }
-
-
-/* ------------AVERAGE-------------------------------------------------------------- */
-
- @media(min-width:600px){
-
-
-
-
-
-     #title {
-        
-          border-bottom-width: 2px;
-          width: 125px;
-          text-align: center;
-          padding-bottom: 10px;
-          font-weight: 700;
-          font-size: 17px;
-     }
-     
-     #hyperlinks {
-          margin-top: 40px;
-     }
-     
-     /* am inlocuit h3 cu hl */
-     .hl {
-          margin-left: 33px;
-          margin-right: 31px;
-          font-weight: 400;
-          font-size:14px;
-     }
-     
-     
-     
-     #home {
-         
-          border-bottom-width: 1px;
-          text-align: center;
-          padding-bottom: 8px;
-     }
-     
-     
-     
-     .img1{
-     
-          width: 479px;
-          height: 214px;
-          margin-top: 55px;
-          border-radius: 10px;
-         
-        }
-     
-     
-     .img1Text{
-          font-weight: 400;
-          font-size: 10px;
-          margin-right: 20px;
-          top: 36px;
-          left: 41px;
-     }
-     
-     .img1Button{
-         
-          border-radius: 7px;
-          width: 150px;
-          height: 23px;
-          top: 75px;
-          right: 203px;
-          font-size: 10px;
-     }
-     
-     
-     
-     
-     .img2{
-          background-color: #9AD2FA;
-          width: 405px;
-          height: 207px;
-          margin-top: 63px;
-     }
-     
-        .img2Button{
-         
-          border-radius: 12px;
-          width: 30px;
-          height: 29px;
-         top: 158px;
-         left: 270px;
-         font-size: 11px;
-     
-     }
-     .img2Text{
-      
-          font-weight: 400;
-          font-size:11px;
-          margin-right: 20px;
-          top: 175px;
-          left: 13px;
-         
-     }
-     
-     
-     .img3{
-          background-color: #9AD2FA;
-          width: 405px;
-          height: 207px;
-          margin-top: 63px;
-     }
-     
-        .img3Button{
-         
-          border-radius: 12px;
-          width: 30px;
-          height: 29px;
-         top: 158px;
-         left: 270px;
-         font-size: 11px;
-     
-     }
-     .img3Text{
-      
-          font-weight: 400;
-          font-size:11px;
-          margin-right: 20px;
-          top: 175px;
-          left: 13px;
-         
-     }
-     
-     
-     .abtMe{
-          font-weight: 400;
-          font-size:14px;
-          top: 100px;
-          right: 154px;
-          padding-right:15px;
-          padding-bottom: 2px;
-         
-     }
-     
-     
-     
-     .profile{
-          width: 125px;
-          height:178px;
-          top: 143px;
-          right: 138px;
-     }
-     
-     
-     .profileText{
-          
-               font-weight: 400;
-               font-size: 11px;
-               margin-right: 20px;
-               top: 6px;
-               left: 138px;
-               width: 279px;
-          
-     }
-     
-     #footer{
-          
-          font-family:'Roboto', sans-serif;
-          font-weight: 400;
-          font-size: 12px;
-          position: relative;
-          top: 190px;
-          display: block;
-      }
-     
-     
-
-
-
-
- }
-
-/* 
------------------NORMAL SCREENS-------------------------------------------------------- */
-
-
- @media(min-width:768px){
-
-
-
-
-     #title {
-        
-          border-bottom-width: 2px;
-          width: 175px;
-          text-align: center;
-          padding-bottom: 10px;
-          font-weight: 700;
-          font-size: 25px;
-     }
-     
-     #hyperlinks {
-          margin-top: 40px;
-     }
-     
-     /* am inlocuit h3 cu hl */
-     .hl {
-          margin-left: 40px;
-          margin-right: 40px;
-          font-weight: 400;
-          font-size:16px;
-     }
-     
-     
-     
-     #home {
-         
-          border-bottom-width: 1px;
-          text-align: center;
-          padding-bottom: 8px;
-     }
-     
-     
-     
-     .img1{
-     
-          width: 742px;
-          height: 337px;
-          margin-top: 55px;
-          border-radius: 10px;
-         
-        }
-     
-     
-     .img1Text{
-          font-weight: 400;
-          font-size: small;
-          margin-right: 20px;
-          top: 71px;
-          left: 82px;
-     }
-     
-     .img1Button{
-         
-          border-radius: 10px;
-          width: 200px;
-          height: 35px;
-          top: 116px;
-          right: 298px;
-     }
-     
-     
-     
-     
-     .img2{
-          background-color: #9AD2FA;
-          width: 612px;
-          height: 280px;
-          margin-top: 63px;
-     }
-     
-        .img2Button{
-         
-          border-radius: 12px;
-          width: 49px;
-          height: 35px;
-         top: 222px;
-         left: 437px;
-     
-     }
-     .img2Text{
-      
-          font-weight: 400;
-          font-size:small;
-          margin-right: 20px;
-          top: 243px;
-          left: 33px;
-         
-     }
-     
-     
-     .img3{
-          background-color: #9AD2FA;
-          width: 612px;
-          height: 280px;
-          margin-top: 63px;
-     }
-     
-        .img3Button{
-         
-          border-radius: 12px;
-          width: 49px;
-          height: 35px;
-         top: 222px;
-         left: 437px;
-     
-     }
-     .img3Text{
-      
-          font-weight: 400;
-          font-size:small;
-          margin-right: 20px;
-          top: 243px;
-          left: 33px;
-         
-     }
-     
-     
-     .abtMe{
-          font-weight: 400;
-          font-size:16px;
-          top: 100px;
-          right: 258px;
-          padding-right:25px;
-          padding-bottom: 2px;
-         
-     }
-     
-     
-     
-     .profile{
-          width: 155px;
-          height:178px;
-          top: 181px;
-          right: 232px;
-     }
-     
-     
-     .profileText{
-          
-               font-weight: 400;
-               font-size: small;
-               margin-right: 20px;
-               top: 32px;
-               left: 138px;
-               width: 349px;
-          
-     }
-     
-     #footer{
-          
-          font-family:'Roboto', sans-serif;
-          font-weight: 400;
-          font-size: 12px;
-          position: relative;
-          top: 190px;
-          display: block;
-      }
-     
-     
-     
-     
-     
-     
-      }
-
-
-/* --------------BIG SCREENS----------------------------------------------------------- */
-
-
-      @media(min-width:1024px){
-
-
-
-
-          #title {
-             
-               border-bottom-width: 2px;
-               width: 235px;
-               text-align: center;
-               padding-bottom: 10px;
-               font-weight: 700;
-               font-size: 35px;
-          }
-          
-          #hyperlinks {
-               margin-top: 40px;
-          }
-          
-          /* am inlocuit h3 cu hl */
-          .hl {
-               margin-left: 40px;
-               margin-right: 40px;
-               font-weight: 400;
-               font-size:18px;
-          }
-          
-          
-          
-          #home {
-              
-               border-bottom-width: 2px;
-               text-align: center;
-               padding-bottom: 10px;
-          }
-          
-          
-          
-          .img1{
-          
-               width: 900px;
-               height: 350px;
-               margin-top: 80px;
-               border-radius: 10px;
-              
-             }
-          
-          
-          .img1Text{
-               font-weight: 400;
-               font-size: medium;
-               margin-right: 20px;
-               top: 65px;
-               left: 70px;
-          }
-          
-          .img1Button{
-              
-               border-radius: 12px;
-               width: 230px;
-               height: 35px;
-               top: 116px;
-               right: 360px;
-          }
-          
-          
-          
-          
-          .img2{
-               background-color: #9AD2FA;
-               width: 750px;
-               height: 310px;
-               margin-top: 80px;
-          }
-          
-             .img2Button{
-              
-               border-radius: 12px;
-               width: 49px;
-               height: 35px;
-              top: 250px;
-              left: 580px;
-          
-          }
-          .img2Text{
-           
-               font-weight: 400;
-               font-size:small;
-               margin-right: 20px;
-               top: 266px;
-               left: 33px;
-              
-          }
-          
-          
-          .img3{
-               width: 750px;
-               height: 310px;
-               margin-top: 80px;
-               border-radius: 10px;
-          }
-          
-             .img3Button{
-          
-               color: #252525;
-               border-radius: 12px;
-               width: 49px;
-               height: 35px;
-              top: 250px;
-              left: 580px;
-          
-          }
-          .img3Text{
-               font-size:small;
-               color: #252525;
-               margin-right: 20px;
-               top: 266px;
-               left: 33px;
-              
-          }
-          
-          
-          .abtMe{
-               font-weight: 400;
-               font-size:18px;
-               top: 100px;
-               right: 310px;
-               padding-right: 40px;
-               padding-bottom: 5px;
-              
-          }
-          
-          
-          
-          .profile{
-               width: 200px;
-               height: 200px;
-               top: 181px;
-               right: 273px;
-          }
-          
-          
-          .profileText{
-               
-                    font-weight: 400;
-                    font-size: medium;
-                    margin-right: 20px;
-                    top: 7px;
-                    left: 180px;
-                    width: 467px;
-               
-          }
-          
-          #footer{
-               
-               font-family:'Roboto', sans-serif;
-               font-weight: 400;
-               font-size: 15px;
-               position: relative;
-               top: 190px;
-               display: block;
-           }
-          
-          
-          
-          
-          
-          
-           }
-
-
-
-           /* -----REALLLYYY BIG SCREEEENS-------------------------------------------------- */
-
-           @media(min-width:1200px){
-
-
-
-
-               #title {
-                  
-                    border-bottom-width: 2px;
-                    width: 235px;
-                    text-align: center;
-                    padding-bottom: 10px;
-                    font-weight: 700;
-                    font-size: 35px;
-               }
-               
-               #hyperlinks {
-                    margin-top: 40px;
-               }
-               
-               /* am inlocuit h3 cu hl */
-               .hl {
-                    margin-left: 40px;
-                    margin-right: 40px;
-                    font-weight: 400;
-                    font-size:18px;
-               }
-               
-               
-               
-               #home {
-                   
-                    border-bottom-width: 2px;
-                    text-align: center;
-                    padding-bottom: 10px;
-               }
-               
-               
-               
-               .img1{
-               
-                    width: 900px;
-                    height: 350px;
-                    margin-top: 80px;
-                    border-radius: 10px;
-                   
-                  }
-               
-               
-               .img1Text{
-                    font-weight: 400;
-                    font-size: medium;
-                    margin-right: 20px;
-                    top: 65px;
-                    left: 70px;
-               }
-               
-               .img1Button{
-                   
-                    border-radius: 12px;
-                    width: 230px;
-                    height: 35px;
-                    top: 116px;
-                    right: 360px;
-               }
-               
-               
-               
-               
-               .img2{
-                    background-color: #9AD2FA;
-                    width: 750px;
-                    height: 310px;
-                    margin-top: 80px;
-               }
-               
-                  .img2Button{
-                   
-                    border-radius: 12px;
-                    width: 49px;
-                    height: 35px;
-                   top: 250px;
-                   left: 580px;
-               
-               }
-               .img2Text{
-                
-                    font-weight: 400;
-                    font-size:small;
-                    margin-right: 20px;
-                    top: 266px;
-                    left: 33px;
-                   
-               }
-               
-               
-               .img3{
-                    width: 750px;
-                    height: 310px;
-                    margin-top: 80px;
-                    border-radius: 10px;
-               }
-               
-                  .img3Button{
-               
-                    color: #252525;
-                    border-radius: 12px;
-                    width: 49px;
-                    height: 35px;
-                   top: 250px;
-                   left: 580px;
-               
-               }
-               .img3Text{
-                    font-size:small;
-                    color: #252525;
-                    margin-right: 20px;
-                    top: 266px;
-                    left: 33px;
-                   
-               }
-               
-               
-               .abtMe{
-                    font-weight: 400;
-                    font-size:18px;
-                    top: 100px;
-                    right: 310px;
-                    padding-right: 40px;
-                    padding-bottom: 5px;
-                   
-               }
-               
-               
-               
-               .profile{
-                    width: 200px;
-                    height: 200px;
-                    top: 181px;
-                    right: 273px;
-               }
-               
-               
-               .profileText{
-                    
-                         font-weight: 400;
-                         font-size: medium;
-                         margin-right: 20px;
-                         top: 7px;
-                         left: 180px;
-                         width: 467px;
-                    
-               }
-               
-               #footer{
-                    
-                    font-family:'Roboto', sans-serif;
-                    font-weight: 400;
-                    font-size: 15px;
-                    position: relative;
-                    top: 190px;
-                    display: block;
-                }
-               
-               
-               
-               
-               
-               
-                }
