@@ -23,3 +23,9 @@ nav{
 .offcanvas-body{
     padding-top: 0px;
 }
+
+.navbar-brand{
+    color: #252525;
+     font-family: 'Roboto',sans-serif;
+     font-weight: 300;
+}
