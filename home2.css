@@ -1,0 +1,25 @@
+body{
+    background-color: #252525;
+}
+
+nav{
+    background-color: #FFD166;
+}
+
+.social{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+}
+#offcanvasNavbar{
+    background-color: #FFD166;
+}
+
+.offcanvas-header{
+    padding-bottom:0px ;
+}
+
+.offcanvas-body{
+    padding-top: 0px;
+}
