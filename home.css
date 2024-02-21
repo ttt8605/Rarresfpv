@@ -379,15 +379,16 @@ top: 234px;
           width:143px ;
      }
      .but1{
-      width: 82px;
-      height: 38px;
+      width: 90px;
+      height: 31px;
+      border-radius:8px;
      }
      .fastLinks{
           margin-right: 13px;
           font-size: 12px;
      }
      .pages{
-          width: 194px;
+          width: 205px;
 
      }
      .title {
