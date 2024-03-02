@@ -1,48 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-.background {
-   background-color: #252525;
-}
 
-#title {
-    color: #FFD166;
-    border-bottom-style: solid;
-    border-bottom-color:#FFD166 ;
-    border-bottom-width: 2px;
-    width: 235px;
-    text-align: center;
-    padding-bottom: 10px;
-    font-family:'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 35px;
-    margin-top: 10px;
-}
-
-#hyperlinks{
-    color: #9AD2FA;
-    margin-top: 40px;
-}
-
-.hl {
-    margin-left: 40px;
-     margin-right: 40px;
-     font-family:'Roboto', sans-serif;
-     font-weight: 500;
-     font-size:larger;
-}
-
-.hl a {
-    text-decoration: none !important;
-    color:#9AD2FA;
-}
-
-#drones {
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-     border-bottom-color:#9AD2FA ;
-     text-align: center;
-     padding-bottom: 10px;
-}
 
 main{
     display: flex;
@@ -57,8 +15,13 @@ main{
     margin-top: 80px;
 }
 
-#overallCard{
+#overAllCard{
  border-radius: 10px;;
+}
+
+#allCards {
+    position: relative;
+    top: 120px;
 }
 
 .card-body {
@@ -100,16 +63,28 @@ main{
 }
 
 #footer{
-    color:#FFD166;
+    color:#3A8AC3;
     font-family:'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
     position: relative;
-    top: 190px;
+    top: 260px;
     display: block;
 }
 
-/*  TABLETS */
-@media(min-width:600px){
+
+@media (min-width:320px) {
+
+}
+
+@media (min-width:641px) {
+
+}
+
+@media (min-width:1025px) {
+
+}
+
+@media (min-width:1281px) {
   
 }

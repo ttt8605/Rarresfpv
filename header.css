@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.background {
+   background-color: #252525;
+}
+
+#title {
+    color: #d9d9d9;
+    width: 235px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 10px;
+    position:relative;
+    top: 105px;
+}
+
+#hyperlinks{
+    color: #3A8AC3;
+    margin-right: 48px;
+}
+
+#hl {
+    /* margin-left: 40px; */
+     /* margin-right: 40px; */
+     margin-top: -38px;
+     font-family:'Roboto', sans-serif;
+     font-weight: 500;
+     font-size:larger;
+     color: #3A8AC3 !important;
+}
+
+#hl a {
+    text-decoration: none !important;
+    color:#3A8AC3 !important;
+}
+
+#contact a {
+    color:#252525 !important;
+    background-color: #FFD166;
+    text-decoration: none !important;
+    font-family:'Roboto', sans-serif;
+     font-weight: 500;
+     font-size:larger;
+     border-radius: 18px;
+     border-color: #FFD166;
+     margin-top: -51px;
+}
+
+#drones {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+     border-bottom-color:#9AD2FA ;
+     text-align: center;
+     padding-bottom: 10px;
+}
+
+#social {
+    margin-left: 48px;
+}
+
+#fb {
+    margin-top: -115px;
+    padding: 10px;
+}
+
+#ig {
+    margin-top: -115px;
+    padding: 10px;
+}
+
+#lin {
+    margin-top: -115px;
+    padding: 10px;
+}
+
+#yt {
+    width: 50px;
+    margin-top: -115px;
+    padding: 10px;
+}
+
+
+
