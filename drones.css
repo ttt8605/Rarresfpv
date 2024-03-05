@@ -39,15 +39,17 @@ main{
 
 
 .boxes{
-    margin-top: 80px;
-    
+    margin-top: 90px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .box{
     width: 450px;
     background-color: #d9d9d9;
     border-radius: 10px;
-    margin-left: 15px;
+    margin-right: 25px;
 }
 
 .box-1section{
@@ -145,7 +147,7 @@ right: 40px;
     font-weight: 400;
     font-size: 15px;
     position: relative;
-    top: 260px;
+    top: 180px;
     display: block;
 }
 
