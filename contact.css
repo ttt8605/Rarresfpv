@@ -11,6 +11,19 @@
     margin-left: 30px;
 }
 
+#input {
+    display: flex;
+    justify-content: flex-end;
+    width: 380px;
+}
+
+#button {
+    background-color: #FFD166;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
 #meniu1{
     display: block;
 }
