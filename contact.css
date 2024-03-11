@@ -35,6 +35,17 @@
    right: 40px;
    width: 360px;
 }
+
+#footer{
+    color:#3A8AC3;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    top: 288px;
+    display: block;
+}
+
 main{
     display: flex;
     flex-direction: row;
