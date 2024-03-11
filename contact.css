@@ -12,9 +12,7 @@
 }
 
 #input {
-    display: flex;
-    justify-content: flex-end;
-    width: 380px;
+    color:#9AD2FA;
 }
 
 #button {
@@ -29,6 +27,20 @@
 }
 #meniu2{
     display: none;
+}
+
+.container2{
+    position: relative;
+   bottom: 37px;
+   width: 360px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
 }
 
 @media(max-width:700px){
