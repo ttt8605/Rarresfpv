@@ -18,6 +18,7 @@ main{
 .boxes{
     margin-top: 90px;
     display:flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
