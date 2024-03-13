@@ -88,12 +88,24 @@ main{
         width: 400px;
     } 
 
+    .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 @media(max-width: 767px) {
     #text {
       font-size: 25px;
    }
+
+   .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 
