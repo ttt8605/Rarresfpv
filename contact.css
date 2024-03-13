@@ -57,6 +57,10 @@ main{
     top: 60px;
 }
 
+
+
+
+/* MEDIA QUERIES */
 @media(max-width:700px){
     #meniu1{
         display: none;
@@ -83,13 +87,60 @@ main{
     .container2 {
        position: relative;
         left: -24px;
+        width: 400px;
     } 
+
 }
 
 @media(max-width: 767px) {
     #text {
       font-size: 25px;
    }
+}
+
+
+/* iphone 13 pro max */
+@media(max-width: 430px) {
+    .container1 {
+        margin-left: 20px;
+    }
+
+   #text {
+    font-size: 20px;
+   }
+
+    .container2 {
+        margin-left: 37px;
+        width: 308px;
+    }
+
+    .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #button {
+    width: 120px;
+    height: 50px;
+    }
+}
+
+
+/* iphone 12 pro */
+@media(max-width: 390px) {
+    .container1 {
+        margin-left: 20px;
+    }
+
+   #text {
+    font-size: 18px;
+   }
+
+    .container2 {
+        margin-left: 37px;
+        width: 290px;
+    }
 }
 
 
