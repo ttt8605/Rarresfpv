@@ -64,11 +64,11 @@ main{
 
 
 /* MEDIA QUERIES */
-@media(max-width:700px){   
+@media(max-width:700px){     
     #meniu1{
         display: none;
     }
-    #meniu2{
+    #meniu2{                /* schimbari */
         display: block;
         background-color: #252525;
     }
