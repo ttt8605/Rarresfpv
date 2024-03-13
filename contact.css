@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
+
+
+.profile{
+    height: 270px;
+    margin-top: 53px;
+}
+
 #text {
     color: #9AD2FA;
     font-family:'Roboto', sans-serif;
@@ -48,13 +55,20 @@
 }
 
 main{
+    
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainpart{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-evenly;
-    position: relative;
-    top: 60px;
 }
 
 #formGroupExampleInput4{
@@ -88,6 +102,10 @@ main{
         background-color: #1e1e1e;
     }
 
+
+    .profile{
+        height: 194px;
+   }
      /* .navbar-toggle {
         position: relative;
         float: right;
@@ -132,6 +150,9 @@ main{
         justify-content: center;
         align-items: center;
     }
+    .profile{
+        height: 221px;
+   }
 
 }
 
@@ -173,6 +194,10 @@ main{
     width: 120px;
     height: 50px;
     color: #242424;
+    }
+    .profile{
+        margin-top: 37px;
+        height: 183px;
     }
 }
 
