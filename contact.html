@@ -36,7 +36,7 @@
     </div>
 
 
-        <div class="d-flex justify-content-start">
+        <div class="d-flex justify-content-start" id="socialBlock">
           <ul class="nav justify-content-start" >
             <li class="nav-item" id="social">
               <img src="poze/facebook.svg" id="fb">
@@ -61,17 +61,16 @@
           <nav class="navbar  fixed-top" id="meniu2">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">RarrrresFpv</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <button class="navbar-toggler" id="toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div class="offcanvas-header" id="list">
+                  <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5> -->
+                  <button type="button" class="btn-close" id="closeBtn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 
                 </div>
-                <hr>
-                <div class="offcanvas-body">
+                <div class="offcanvas-body" id="list">
                     
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
