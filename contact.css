@@ -5,10 +5,6 @@
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 33px;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 142px;
-    margin-left: 20px;
 }
 
 #input {
@@ -29,10 +25,15 @@
     display: none;
 }
 
+.container1{
+    margin-top: 142px;
+    margin-right: 25px;
+}
+
 .container2{
-   position: relative;
+   /* position: relative;
    bottom: 37px;
-   right: 40px;
+   right: 40px; */
    width: 360px;
 }
 
@@ -49,6 +50,7 @@
 main{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-evenly;
     position: relative;
@@ -62,4 +64,34 @@ main{
     #meniu2{
         display: block;
     }
+    
 }
+
+@media (max-width: 1199px) {
+    .container1 {
+       
+    }
+    
+}
+
+@media (max-width: 991px) {
+     .container1  {
+        position: relative;
+        top: -60px;
+    } 
+
+    .container2 {
+       position: relative;
+        left: -24px;
+    } 
+}
+
+@media(max-width: 767px) {
+    #text {
+      font-size: 25px;
+   }
+}
+
+
+
+    
