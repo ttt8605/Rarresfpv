@@ -313,10 +313,27 @@ top: 234px;
      #meniu1{
          display: none;
      }
-     #meniu2{
-         display: block;
-     }
- }
+     #meniu2{                /* schimbari */
+          display: block;
+          background-color: #252525;
+      }
+      #meniu2 a {
+          color: #d9d9d9;
+      }
+  
+      #toggle {
+          background-color: #d9d9d9;
+      }
+  
+      #closeBtn {
+        background-color: #d9d9d9;
+      }
+  
+      #list {
+          background-color: #1e1e1e;
+      }
+  }
+ 
 
 @media(max-width:674px){
      .media{
