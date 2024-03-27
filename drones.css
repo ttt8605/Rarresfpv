@@ -16,10 +16,11 @@ main{
 }
 
 .boxes{
-    margin-top: 90px;
+    margin-top: 36px;
     display:flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .box{
@@ -27,6 +28,8 @@ main{
     background-color: #d9d9d9;
     border-radius: 10px;
     margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 80px;
 }
 
 .box-1section{
@@ -80,10 +83,12 @@ right: 40px;
 .content{
     padding-top: 5px;
     font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    font-size:16px;
+    font-weight: 500;
+    font-size:15px;
     color: #252525;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -140,23 +145,51 @@ right: 40px;
     #meniu1{
         display: none;
     }
-    #meniu2{
+    #meniu2{                /* schimbari */
         display: block;
+        background-color: #252525;
+    }
+    #meniu2 a {
+        color: #d9d9d9;
+    }
+
+    #toggle {
+        background-color: #d9d9d9;
+    }
+
+    #closeBtn {
+      background-color: #d9d9d9;
+    }
+
+    #list {
+        background-color: #1e1e1e;
     }
 }
 
-@media (min-width:320px) {
-
+@media (max-width:500px) {
+.box{
+width: 285px;
+}
+.box-1section{
+    height: 187px;
+}
+.box-2section{
+    height: 187px;
+}
+.card-title{
+    top: 71px;
+}
+.content{
+    font-size: 12px;
+}
+.button{
+    top: 62px;
+    right: 19px;
 }
 
-@media (min-width:641px) {
-
+#footer{
+    top: 65px;
+}
 }
 
-@media (min-width:1025px) {
 
-}
-
-@media (min-width:1281px) {
-  
-}

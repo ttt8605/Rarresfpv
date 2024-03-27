@@ -36,7 +36,7 @@
     </div>
 
 
-        <div class="d-flex justify-content-start">
+        <div class="d-flex justify-content-start" id="socialBlock">
           <ul class="nav justify-content-start" >
             <li class="nav-item" id="social">
               <img src="poze/facebook.svg" id="fb">
@@ -61,17 +61,16 @@
           <nav class="navbar  fixed-top" id="meniu2">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">RarrrresFpv</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler" id="toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>  <!-- am pus id la toggle -->
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                
+                <div class="offcanvas-header" id="list">  <!-- am pus id -->
+                  <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5> -->
+                  <button type="button" class="btn-close" id="closeBtn" data-bs-dismiss="offcanvas" aria-label="Close"></button>  <!-- am pus id la buton de close -->
+                <!-- am sters de aici breakul ala cu linie-->
                 </div>
-                <hr>
-                <div class="offcanvas-body">
+                <div class="offcanvas-body" id="list">  <!-- am pus id -->
                     
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
@@ -95,9 +94,12 @@
             </div>
           </nav>
 
-        <main>
-
-            <div class="container1">
+        <main class="container">
+          <div>
+           <img src="https://raw.githubusercontent.com/ttt8605/Rarresfpv/3d06525b959c53a62bda92f3e4e2e227e4a07d5d/poze/Ellipse%203.svg" alt="" class="profile">
+          </div>
+           <div class="mainpart">
+         <div class="container1">
                 <h1 id="text">Whether you have a question, want to<br>
                      collaborate, or just fancy a friendly<br>
                      chat, feel free to reach out👋 </h1>
@@ -108,11 +110,11 @@
   
                 <div class="mb-3" id="input">
                   <label for="formGroupExampleInput1" class="form-label">Your name (required)</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput1">
+                  <input type="text" class="form-control" placeholder="Alecsandru" id="formGroupExampleInput1">
                 </div>
                 <div class="mb-3" id="input">
                   <label for="formGroupExampleInput2" class="form-label">Your email (required)</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2">
+                  <input type="text" class="form-control" placeholder="loremipsum@gmail.com" id="formGroupExampleInput2">
                 </div>
                 <div class="mb-3" id="input">
                   <label for="formGroupExampleInput3" class="form-label">Subject</label>
@@ -120,12 +122,15 @@
                 </div>
                 <div class="mb-3" id="input">
                   <label for="formGroupExampleInput4" class="form-label">Message (required)</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput4">
+                  <textarea rows="5" cols="25"  class="form-control" id="formGroupExampleInput4"></textarea>
                 </div>
   
+                <div class="container3">
                  <button id="button">Submit &rarr;</button>
-  
+                </div>
+
               </form>
+            </div>
             </div>
   
             
