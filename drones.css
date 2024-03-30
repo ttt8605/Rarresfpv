@@ -47,7 +47,7 @@ main{
 }
 
 .box-2section{
-  height: 200px;
+  height: 180px;
   width: 430px;
   margin-left: 9px;
   margin-bottom: 9px;
@@ -177,7 +177,8 @@ width: 285px;
     height: 187px;
 }
 .box-2section{
-    height: 187px;
+    height: 180px;
+    width: 265px;
 }
 .card-title{
     top: 71px;

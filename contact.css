@@ -34,7 +34,7 @@
 
 .container1{
     margin-top: 142px;
-    margin-right: 60px;
+    margin-right: 150px;
 }
 
 .container2{
@@ -101,6 +101,9 @@ main{
         background-color: #1e1e1e;
     }
 
+    .container1{
+        margin-right: 30px;
+    }
 
     .profile{
         height: 194px;
@@ -136,6 +139,7 @@ main{
      .container1  {
         position: relative;
         top: -60px;
+        margin-right: 40px;
     } 
 
     .container2 {
