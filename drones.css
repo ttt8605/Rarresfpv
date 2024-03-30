@@ -26,13 +26,15 @@ main{
 .box{
     width: 450px;
     background-color: #d9d9d9;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 25px;
     margin-left: 25px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .box-1section{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   height: 350px;
   display: flex;
   flex-direction: row;
@@ -42,8 +44,22 @@ main{
   background-size: cover; /* You can use other values like 'contain' or specific dimensions */
   background-position: center; /* You can adjust the positioning as needed */
   background-repeat: no-repeat; /* Prevent the image from repeating if it's smaller than the div */
- 
 }
+
+.box-2section{
+  height: 200px;
+  width: 430px;
+  margin-left: 9px;
+  margin-bottom: 9px;
+  margin-top: 9px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #9AD2FA;
+}
+
 .card-title{
     font-family: 'Roboto',sans-serif;
      font-weight: 700;
@@ -69,16 +85,7 @@ main{
 right: 40px;
 }
 
-.box-2section{
-    height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #9AD2FA;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
+
 
 .content{
     padding-top: 5px;
@@ -118,10 +125,6 @@ right: 40px;
     top: -87px;
     left: 362px;
 }
-
-
-
-
 
 #footer{
     color:#3A8AC3;

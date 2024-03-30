@@ -8,19 +8,19 @@
 }
 
 #text {
-    color: #9AD2FA;
+    color: #3A8AC3;
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 33px;
 }
 
 #input {
-    color:#9AD2FA;
+    color:#3A8AC3;
 }
 
 #button {
     background-color: #FFD166;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 120px;
     height: 50px;
 }
@@ -34,7 +34,7 @@
 
 .container1{
     margin-top: 142px;
-    margin-right: 25px;
+    margin-right: 60px;
 }
 
 .container2{
