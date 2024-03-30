@@ -307,6 +307,12 @@ hr{
     margin-left: 13px;
 }
 
+@media(max-width: 1230){
+    .img2{
+        width: 540px;
+        height: 540px;
+    }
+}
 
 @media(max-width:1024px){
 .fastLinks{
@@ -418,8 +424,9 @@ hr{
     
     .projectTitle{
         color: #3A8AC3;
-        font-size: 20px;
+        font-size: 30px;
     }
+
     #Ylink{
         font-size: 15px;
     }
