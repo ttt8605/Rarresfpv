@@ -133,7 +133,17 @@ main{
      } */
 }
 
+.footer{
+    margin-top: 100px;
+}
 
+.footerText{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    color: #3A8AC3;
+    text-align: center;
+}
 
 @media (max-width: 991px) {
      .container1  {
