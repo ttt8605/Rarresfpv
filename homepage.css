@@ -100,9 +100,9 @@ hr{
      
      font-family: 'Roboto',sans-serif;
      font-weight: 400;
-     font-size: 15px;
+     font-size: 18px;
      color: #d9d9d9;
-     width: 526px;
+     width: 700px;
      margin-top: 66px;
 }
 .projectIntro{
@@ -112,13 +112,16 @@ hr{
     align-items: center;
     flex-direction: row;
     width: 80%;
-    margin-left: 20px;
+    margin-left: 70px;
+    margin-left: 25px;
 }
+
 
 .projectTitle{
+    margin-top: 15px;
     color: #3A8AC3;
+    font-size: 2.4em;
 }
-
 
 .twoImgRow{
     display: flex;
@@ -126,19 +129,16 @@ hr{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+   
     margin-top: 70px;
+}
 
-}
-.img2:first-child{
-   margin-right: 20px;
-}
 .img1{
     background-color: #9AD2FA;
     width: 100%;
     height: 455px;
-    margin-top: 133px;
-  
+    margin-top: 130px;
+    border-radius: 15px;
     display: flex;
     justify-content: flex-start;
     align-items:flex-start;
@@ -152,33 +152,35 @@ hr{
   .img1Text{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     color: #d9d9d9;
     margin-right: 20px;
     position: relative;
-    top: 350px;
+    top: 385px;
     left: 43px;
-    width: 416px;
+    width: 600px;
 }
 
 
 .img2{
     background-color: #9AD2FA;
-    width: 500px;
-   height: 379px;
+    width: 600px;
+   height: 460px;
     margin-top: 80px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    
     background-image: url('https://raw.githubusercontent.com/ttt8605/Rarresfpv/main/poze/wp10467165.jpg');
     background-size: cover; /* You can use other values like 'contain' or specific dimensions */
     background-position: center; /* You can adjust the positioning as needed */
     background-repeat: no-repeat; /* Prevent the image from repeating if it's smaller than the div */
   }
   
+  .img2:first-child{
+   margin-right: 20px;
+}
 
   .img2Button{
     font-family: 'Roboto',sans-serif;
@@ -188,7 +190,7 @@ hr{
     font-weight: 500;
     font-size: 30px;
     position: relative;
-   top: 130px;
+   top: 185px;
 }
 .img2Text{
     font-family: 'Roboto',sans-serif;
@@ -197,7 +199,7 @@ hr{
     color: #d0d0d0;
     position: relative;
     width: 70%;
-    top: 130px;
+    top: 190px;
    
 }
 
@@ -208,8 +210,8 @@ hr{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     color: #d9d9d9;
-    width: 116px;
-    height: 41px;
+    width: 140px;
+    height: 45px;
     border-radius: 10px;
     margin-top: 80px;
 }
@@ -217,10 +219,14 @@ hr{
 
 
   .AddMoreSection{
+    width: 90%;
     max-height: 0; /* Initially hide the section */
     overflow: hidden; /* Hide overflowing content */
     transition: max-height 1s ease; /* Add transition for smooth animation */
   
+}
+.visibleImages{
+    width: 90%;
 }
 
 
@@ -304,6 +310,12 @@ hr{
     margin-left: 13px;
 }
 
+@media(max-width: 1230){
+    .img2{
+        width: 540px;
+        height: 540px;
+    }
+}
 
 @media(max-width:1024px){
 .fastLinks{
@@ -340,6 +352,12 @@ hr{
 }
 
 @media(max-width:700px){
+
+    .profileText{
+        font-size: 15px;
+        width: 500px;
+    }
+
     #meniu1{
         display: none;
     }
@@ -347,6 +365,7 @@ hr{
          display: block;
          background-color: #252525;
      }
+
      #meniu2 a {
          color: #d9d9d9;
      }
@@ -415,8 +434,9 @@ hr{
     
     .projectTitle{
         color: #3A8AC3;
-        font-size: 20px;
+        font-size: 30px;
     }
+
     #Ylink{
         font-size: 15px;
     }
