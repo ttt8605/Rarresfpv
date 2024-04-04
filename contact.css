@@ -134,7 +134,7 @@ main{
 }
 
 .footer{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .footerText{
@@ -143,6 +143,11 @@ main{
     font-size:14px;
     color: #3A8AC3;
     text-align: center;
+}
+
+.social2{
+    width: 200px;
+    margin-left: 13px;
 }
 
 @media (max-width: 991px) {
