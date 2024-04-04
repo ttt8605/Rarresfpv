@@ -16,7 +16,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 120px;
-    width: 90%;
+    width: 70%;  /* old: width: 90% */
 }
 
 .leftDiv{
@@ -31,11 +31,10 @@ main{
     margin-top: 20px;
 }
 .rightDiv{
-    width: 500px;
-    height: 400px;
-
+    width: 663px;  /* old: 500px */
+    height: 404px;    /* old: 400px */
     margin-right: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column ;
     align-items: center;
