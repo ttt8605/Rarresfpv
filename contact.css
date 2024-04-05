@@ -197,6 +197,31 @@ main{
 }
 }
 
+@media(max-width: 550px) {
+    .container2 {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 500px) {
+  .container2 {
+    margin-left: 15px;
+  }
+}
+
+@media(max-width: 480px) {
+  #text {
+    font-size: 22px;
+  }
+
+  .container1 {
+    margin-left: 10px;
+  }
+
+  .container2 {
+    margin-left: 40px;
+  }
+}
 
 /* iphone 13 pro max */
 @media(max-width: 430px) {
