@@ -44,15 +44,6 @@
    width: 360px;
 }
 
-#footer{
-    color:#3A8AC3;
-    font-family:'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    position: relative;
-    top: 288px;
-    display: block;
-}
 
 main{
     
@@ -73,6 +64,26 @@ main{
 
 #formGroupExampleInput4{
     resize: none;
+}
+
+.footer{
+    margin-top: 150px;
+}
+
+
+.footerText{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    color: #3A8AC3;
+    text-align: center;
+}
+
+.social2{
+    width: 200px;
+    margin-left: 13px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
