@@ -125,7 +125,14 @@ main{
     font-size:14px;
     color: #3A8AC3;
     text-align: center;
+}
 
+
+/* AICI AM PUS WIDTH MAI MIC PENTRU ECRANELE MARI */
+@media(min-width: 1300px) {
+  .droneSection {
+    width: 80%;
+  }
 }
 
 
