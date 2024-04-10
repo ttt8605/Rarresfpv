@@ -8,3 +8,8 @@ module.exports.droneSchema = Joi.object({
        description:Joi.string().required(),
     }).required()
   }) 
+
+  module.exports.proiectSchema = Joi.object({
+   name:Joi.string().required(),
+   description:Joi.string().required(),
+  })

@@ -38,29 +38,11 @@ app.set('views', path.join(__dirname, 'views'));
 
 const{droneSchema} =  require('./schema')
 const Drone = require('./models/drone')
+const proiect = require('./models/proiect')
 // Serve static files from the 'public' directory
 app.use(express.static('public'));
 
 // Rendering pages
-
-
-
-//test page
-// const test = async()=>{
-//     const drone = new Drone({
-//         name:'firefighter',
-//         size:6,
-//         specification:'blabla',
-//         description:'fast asf'
-//     })
-//     await drone.save()
-// }
-// test();
-app.use('/test',async(req,res)=>{
-    const drones = await Drone.find({});
-    res.render('test',{drones})
-})
-
 
 app.use('/homepage', (req, res) => {
     res.render('index');
