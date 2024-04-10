@@ -4,9 +4,9 @@ const Schema = mongoose.Schema;
 
 const droneSchema = new Schema({
 name:String,
-engine:String,
-components:String,
-description:String
+size:Number,
+description:String,
+specification:String,
 })
 
 module.exports = mongoose.model("drones",droneSchema); 

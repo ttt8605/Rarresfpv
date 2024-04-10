@@ -45,12 +45,12 @@ app.use(express.static('public'));
 
 
 
-// //test page
+//test page
 // const test = async()=>{
 //     const drone = new Drone({
 //         name:'firefighter',
-//         engine:'6s',
-//         components:'blabla',
+//         size:6,
+//         specification:'blabla',
 //         description:'fast asf'
 //     })
 //     await drone.save()
