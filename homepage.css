@@ -1,30 +1,51 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
 
 body {
   background-color: #252525;
 }
 
+main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
 .header{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     margin-top: 20px;
+     /* margin-top: 20px; */
+}
+
+/* menu queries */
+#meniu1{
+    display: block;
+    position: relative;
+    background-color: #373737 ;
+    width: 100%;
+    height: 600px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#meniu2{
+    display: none;
 }
 
 .social{
      width: 200px;
 }
+
 .pages{
-     width: 289px;
-     
-    
+     width: 289px; 
 }
+
 .media{
      margin-left: 20px;
      color: #3A8AC3;
 }
+
 #fastLinks{
      text-decoration: none;
      color: #252525;
@@ -42,22 +63,6 @@ body {
      border-style: none;
 }
 
-main{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-}
-.title {
-     color: #d9d9d9;
-     width: 235px;
-     text-align: center;
-     font-family:'Roboto', sans-serif;
-     font-weight: 500;
-     font-size: 35px;
-     margin-top: 100px;
-}
-
 .aboutDiv{
     display: flex;
     justify-content: space-between;
@@ -67,33 +72,15 @@ main{
     margin-top: 70px;
 }
 
-
-
 hr{
   color: #d9d9d9;
   width: 50%;
 }
-.aboutMe{
-    color: #3A8AC3;
-    width: 180px;
-     text-align: center;
-     font-family:'Roboto', sans-serif;
-     font-weight: 500;
-     font-size: 19px;
-     border-style: solid;
-     border-color: #3A8AC3;
-     border-radius: 13px;
-     border-width: 0.5px;
-     margin: 5px;
-     padding-top: 10px;
-     padding-bottom: 10px;
 
-
-}
 
 .profile{
      height: 270px;
-     margin-top: 53px;
+     margin-top: 80px;
 }
 
 .profileText{
@@ -191,6 +178,7 @@ hr{
     position: relative;
    top: 185px;
 }
+
 .img2Text{
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
@@ -199,9 +187,7 @@ hr{
     position: relative;
     width: 70%;
     top: 190px;
-   
 }
-
 
 .AddMoreButton{
     border-style: none;
@@ -215,15 +201,13 @@ hr{
     margin-top: 80px;
 }
 
-
-
   .AddMoreSection{
     width: 90%;
     max-height: 0; /* Initially hide the section */
     overflow: hidden; /* Hide overflowing content */
     transition: max-height 1s ease; /* Add transition for smooth animation */
-  
 }
+
 .visibleImages{
     width: 90%;
 }
@@ -233,6 +217,7 @@ hr{
     text-decoration: none;
     color:#252525;
 }
+
 .contact-link{
     margin-top: 10px;
     width: 20px;
@@ -253,11 +238,13 @@ hr{
     margin-top: 30px;
 
 }
+
 .line{
     width: 50%;
     color: #d9d9d9;
    
 }
+
 .line2{
     width: 50%;
     color: #d9d9d9;
@@ -286,8 +273,6 @@ hr{
     width: 40%;
     text-align: center;
     margin-top: 100px;
-  
-   
 }
 
 
@@ -302,7 +287,6 @@ hr{
     font-size:14px;
     color: #3A8AC3;
     text-align: center;
-
 }
 
 .social2{
@@ -310,12 +294,16 @@ hr{
     margin-left: 13px;
 }
 
+
+
+/* ---- MEDIA QUERIES ---- */
 @media(max-width: 1230){
     .img2{
         width: 540px;
         height: 540px;
     }
 }
+
 
 @media(max-width:1024px){
 .fastLinks{
@@ -337,22 +325,10 @@ hr{
 .boutMeText{
     font-size: 14px;
 }
-
 }
 
-
-/* meniu queris */
-#meniu1{
-    display: block;
-    position: relative;
-    top: 56px;
-}
-#meniu2{
-    display: none;
-}
 
 @media(max-width:700px){
-
     .profileText{
         font-size: 15px;
         width: 500px;
@@ -429,7 +405,6 @@ hr{
         align-items: center;
         flex-direction: row;
         width: 90%;
-        
     }
     
     .projectTitle{
@@ -464,6 +439,7 @@ hr{
     .footer {
          margin-top: 50px;
      }
+
      .footerText{
          font-size: 11px;
      }
@@ -475,56 +451,62 @@ hr{
        font-weight: 300;
        font-size: 17px;
      }
-   
 }
+
 
 @media(max-width:450px){
     .media{
          width: 14px;
          margin-left:15px ;
     }
+
     .social{
          width:143px ;
     }
+
     .but1{
      width: 100px;
      height: 31px;
      border-radius:8px;
     }
+
     .fastLinks{
          margin-right: 13px;
          font-size: 12px;
     }
+
     .pages{
          width: 212px;
-
     }
+
     .title {
          font-size: 25px;
          margin-top: 75px;
      }
+
      .profile{
          margin-top: 37px;
          height: 183px;
      }
+
      .profileText {
          font-size: 12px;
          width: 297px;
          margin-top: 44px;
          text-align: center;
      }
+
      .img1 {
-         
          height: 315px;
          margin-top: 54px;
      }
+
      .img1Text {
          font-size: 11px;
          width: 209px;
          position: relative;
          top: 223px;
          left: 26px;
-       
      }
      
     .img2 {
@@ -532,11 +514,13 @@ hr{
          width: 85%;
          margin-top: 45px;
      }
+
      .img2Text {
         font-size: 11px;
         top: 73px;
          left: 15px;
      }
+
      .img2Button {
         font-size: 26px;
          top: 58px;
@@ -546,16 +530,18 @@ hr{
      .projectTitle {
         font-size: 15px;
     }
+
     #Ylink {
         font-size: 11px;
     }
+
      .boutMe {
          font-size: 15px;
          width: 172px;
          margin: 11px;
          padding: 6px;
-      
      }
+
      .aboutMe{
         width: 120px;
         font-size: 12px;
@@ -563,20 +549,22 @@ hr{
 
      .boutMeText {
          width: 64%;
-         
-         
      }
+
      .footer {
          margin-top: 44px;
      }
+
      .media {
          width: 15px;
          margin-left: 17px;
      }
+
      .social2 {
          width: 204px;
          margin-left: 30px;
      }
+
      .footerText{
          margin-bottom: 10px;
      }
