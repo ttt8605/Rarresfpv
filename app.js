@@ -1,8 +1,13 @@
+
+
 const express = require('express');
 const app = express();
 const ejsMate = require('ejs-mate');
 const path = require('path');
 
+
+
+//setting view engine
 app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -10,6 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 // Serve static files from the 'public' directory
 app.use(express.static('public'));
 
+//rendering pages
 app.use('/homepage', (req, res) => {
     res.render('index');
 });
@@ -27,7 +33,7 @@ app.use('/dronepage',(req,res)=>{
 
 
 
-
+//server side stuff
 app.listen(3000, () => {
     console.log('listening on port 3000');
 });
