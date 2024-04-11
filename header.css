@@ -1,41 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 .background {
    background-color: #252525;
 }
 
 #title { 
-    color: #d9d9d9;
+    color: #F2F2F2;
     width: 235px;
     text-align: center;
     padding-bottom: 10px;
-    font-family:'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 35px;
+    font-family:'Russo One';
+    font-weight: 400;
+    font-size: 50px;
     margin-top: 10px;
     position:relative;
-    top: 105px;
+    top: 10px;
+    left: 100px;
 }
 
 #title a {
     text-decoration: none !important;
-    color: #d9d9d9;
+    color: #f2f2f2;
 }
 
 #hyperlinks{
-    color: #3A8AC3;
-    margin-right: 48px;
+    color: #f2f2f2;
+    /* margin-right: 100px;
+    margin-top: 60px; */
+    position:relative;
+    top: 25px;
+    right: 100px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #hl {
     /* margin-left: 40px; */
-     /* margin-right: 40px; */
+     margin-right: 35px;
      margin-top: -38px;
      font-family:'Roboto', sans-serif;
      font-weight: 500;
-     font-size:larger;
-     color: #3A8AC3 !important;
-}
+     font-size: larger;
+     color: #f2f2f2 !important;
+     
+    }
 
 #hl a {
     text-decoration: none !important;
@@ -49,9 +58,9 @@
     font-family:'Roboto', sans-serif;
      font-weight: 500;
      font-size:larger;
-     border-radius: 18px;
+     border-radius: 10px;
      border-color: #FFD166;
-     margin-top: -51px;
+     margin-top: -44px;
 }
 
 #drones {
@@ -62,7 +71,9 @@
      padding-bottom: 10px;
 }
 
-#social {
+
+
+/* #social {
     margin-left: 48px;
 }
 
@@ -85,7 +96,7 @@
     width: 50px;
     margin-top: -115px;
     padding: 10px;
-}
+} */
 
 
 
