@@ -63,35 +63,26 @@ main{
      border-style: none;
 }
 
-.aboutDiv{
+/* .aboutDiv{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     width: 100%;
     margin-top: 70px;
-}
+} */
 
 hr{
   color: #d9d9d9;
   width: 50%;
 }
 
-
 .profile{
-     height: 270px;
-     margin-top: 80px;
+    height: 290px;
+    height: 290px;
+    margin-top: 90px;
 }
 
-.profileText{
-     
-     font-family: 'Roboto',sans-serif;
-     font-weight: 400;
-     font-size: 18px;
-     color: #d9d9d9;
-     width: 700px;
-     margin-top: 66px;
-}
 .projectIntro{
     margin-top: 100px;
     display: flex;
@@ -99,8 +90,9 @@ hr{
     align-items: center;
     flex-direction: row;
     width: 80%;
-    margin-left: 70px;
-    /* margin-left: 25px; */
+    position: relative;
+    left: -40px;
+    /* margin-left: 10px; */
 }
 
 
@@ -213,10 +205,7 @@ hr{
 }
 
 
-#contactButton{
-    text-decoration: none;
-    color:#252525;
-}
+
 
 .contact-link{
     margin-top: 10px;
@@ -239,7 +228,28 @@ hr{
 
 }
 
-.line{
+.letsWork {
+    margin-top: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    position: relative;
+    left: -40px;
+    margin-bottom: 150px;
+}
+
+#contactButton{
+    color:#252525 !important;
+    background-color: #FFD166;
+    text-decoration: none !important;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size:larger;
+}
+
+/* .line{
     width: 50%;
     color: #d9d9d9;
    
@@ -248,9 +258,9 @@ hr{
 .line2{
     width: 50%;
     color: #d9d9d9;
-}
+} */
 
-.boutMe{
+/* .boutMe{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size:15px;
@@ -273,27 +283,36 @@ hr{
     width: 40%;
     text-align: center;
     margin-top: 100px;
+} */
+
+
+/* ---- FOOTER ---- */
+#footer{
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: #373737;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-
-
-.footer{
-    margin-top: 150px;
-}
-
 
 .footerText{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
-    font-size:14px;
-    color: #3A8AC3;
-    text-align: center;
+    font-size: 16px;
+    color: rgba(217, 217, 217, 0.5);
+    text-align: end;
+    position: relative;
+    top: 50%;
+    right: 30px;
 }
 
-.social2{
-    width: 200px;
-    margin-left: 13px;
+.social{
+    width: 210px;
+    position: relative;
+    top: 20px;
+    left: 110px;
 }
-
 
 
 /* ---- MEDIA QUERIES ---- */
@@ -436,7 +455,7 @@ hr{
          margin-top: 40px;
     }
 
-    .footer {
+    #footer {
          margin-top: 50px;
      }
 
@@ -551,7 +570,7 @@ hr{
          width: 64%;
      }
 
-     .footer {
+     #footer {
          margin-top: 44px;
      }
 

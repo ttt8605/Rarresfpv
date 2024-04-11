@@ -16,7 +16,7 @@
     margin-top: 10px;
     position:relative;
     top: 10px;
-    left: 100px;
+    left: 120px;
 }
 
 #title a {
@@ -30,7 +30,7 @@
     margin-top: 60px; */
     position:relative;
     top: 25px;
-    right: 100px;
+    right: 120px;
     display: flex;
     justify-content: flex-end;
 }
@@ -71,7 +71,14 @@
      padding-bottom: 10px;
 }
 
-
+.profileText{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #d9d9d9;
+    width: 800px;
+    margin-top: 66px;
+}
 
 /* #social {
     margin-left: 48px;
