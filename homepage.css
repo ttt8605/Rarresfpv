@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 body {
   background-color: #252525;
@@ -24,17 +25,13 @@ main{
     position: relative;
     background-color: #373737 ;
     width: 100%;
-    height: 600px;
+    height: 630px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
 #meniu2{
     display: none;
-}
-
-.social{
-     width: 200px;
 }
 
 .pages{
@@ -73,14 +70,32 @@ main{
 } */
 
 hr{
-  color: #d9d9d9;
+  color: #f2f2f2;
   width: 50%;
 }
+
+#description {
+    width: 70%;
+    height: 490px;
+  }
 
 .profile{
     height: 290px;
     height: 290px;
-    margin-top: 90px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.profileText{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #d9d9d9;
+    width: 650px;
+    margin-top: 30px;
+    margin-right: 20px;
+    position: relative;
+    left: 70px;
 }
 
 .projectIntro{
@@ -91,7 +106,7 @@ hr{
     flex-direction: row;
     width: 80%;
     position: relative;
-    left: -40px;
+    left: -35px;
     /* margin-left: 10px; */
 }
 
@@ -131,7 +146,7 @@ hr{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 15px;
-    color: #d9d9d9;
+    color: #f2f2f2;
     margin-right: 20px;
     position: relative;
     top: 385px;
@@ -162,7 +177,7 @@ hr{
 
   .img2Button{
     font-family: 'Roboto',sans-serif;
-    color: #d9d9d9;
+    color: #f2f2f2;
     background-color: transparent;
     border-style: none;
     font-weight: 500;
@@ -175,7 +190,7 @@ hr{
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 15px;
-    color: #d0d0d0;
+    color: #f2f2f2;
     position: relative;
     width: 70%;
     top: 190px;
@@ -185,10 +200,10 @@ hr{
     border-style: none;
     background-color: #3A8AC3;
     font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    color: #d9d9d9;
-    width: 140px;
-    height: 45px;
+    font-weight: 700;
+    color: #f2f2f2;
+    width: 150px;
+    height: 50px;
     border-radius: 10px;
     margin-top: 80px;
 }
@@ -204,17 +219,6 @@ hr{
     width: 90%;
 }
 
-.contact-link{
-    margin-top: 10px;
-    width: 20px;
-    height: 20px;
-    border-style: none;
-    background-color: #FFD166;
-    width: 123px;
-    height: 36px;
-    border-radius: 10px;
-}
-
 .smallSection{
     display: flex;
     flex-direction: row;
@@ -222,19 +226,34 @@ hr{
     align-items: center;
     width: 100%;
     margin-top: 30px;
-
 }
 
 .letsWork {
-    margin-top: 100px;
+    margin-top: 130px;
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: row;
     width: 80%;
     position: relative;
-    left: -40px;
+    left: -35px;
     margin-bottom: 150px;
+}
+
+.proposal {
+    font-family:'Russo One';
+    margin-top: 15px;
+    color: #3A8AC3;
+    font-size: 2.5em;
+}
+
+.contact-link{
+    margin-top: 10px;
+    border-style: none;
+    background-color: #FFD166;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 #contactButton{
@@ -307,16 +326,26 @@ hr{
 .social{
     width: 215px;
     position: relative;
-    top: 20px;
+    top: 25px;
     left: 92px;
 }
 
 
 /* ---- MEDIA QUERIES ---- */
-@media(max-width: 1230){
+@media(max-width: 1230px){
     .img2{
-        width: 540px;
-        height: 540px;
+        width: 500px;
+        height: 450px;
+    }
+
+    .projectIntro {
+      position: relative;
+      left: -5px;
+    }
+
+    .letsWork {
+        position: relative;
+        left: -5px;
     }
 }
 
@@ -333,16 +362,35 @@ hr{
 .profile{
     height: 221px;
 }
+
+.profileText{
+  font-size: 20px;
+}
+
 .img1Text{
     font-size: 13px;
     width: 354px;
 }
 
-.boutMeText{
-    font-size: 14px;
+.footerText{
+    position: relative;
+    top: 50%;
+    right: 50px;
+}
+
+.social{
+    width: 215px;
+    position: relative;
+    top: 25px;
+    left: 50px;
 }
 }
 
+@media(max-width: 991px) {
+  #meniu2 {
+    display: none !important;
+  }
+}
 
 @media(max-width:700px){
     .profileText{
@@ -353,25 +401,25 @@ hr{
     #meniu1{
         display: none;
     }
-    #meniu2{                /* schimbari */
+    #meniu2{               
          display: block;
          background-color: #252525;
      }
 
      #meniu2 a {
-         color: #d9d9d9;
+         color: #f2f2f2;
      }
  
      #toggle {
-         background-color: #d9d9d9;
+         background-color: #f2f2f2;
      }
  
      #closeBtn {
-       background-color: #d9d9d9;
+       background-color: #f2f2f2;
      }
  
      #list {
-         background-color: #1e1e1e;
+         background-color: #373737;
      }
  }
 
@@ -437,16 +485,18 @@ hr{
         height: 307px;
     }
     
-
     .twoImgRow{
         margin-top: 30px;
     }
+
     .img2Button{
         top: 105px;
     }
+
     .img2Text{
         top: 105px;
     }
+
     .boutMeText{
          font-size: 12px;
          margin-top: 40px;

@@ -6,12 +6,6 @@ nav{
     background-color: #FFD166;
 }
 
-.social{
-    display: flex;
-     justify-content: space-between;
-     align-items: center;
-    
-}
 #offcanvasNavbar{
     background-color: #FFD166;
 }
@@ -26,6 +20,6 @@ nav{
 
 .navbar-brand{
     color: #252525;
-     font-family: 'Roboto',sans-serif;
-     font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
 }

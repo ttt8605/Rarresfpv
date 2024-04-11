@@ -7,7 +7,7 @@
 
 #title { 
     color: #F2F2F2;
-    width: 235px;
+    /* width: 235px; */
     text-align: center;
     padding-bottom: 10px;
     font-family:'Russo One';
@@ -15,7 +15,6 @@
     font-size: 50px;
     margin-top: 10px;
     position:relative;
-    top: 10px;
     left: 120px;
 }
 
@@ -51,6 +50,11 @@
     color:#3A8AC3 !important;
 }
 
+#contact{
+   width: 130px;
+   height: 15px;
+}
+
 #contact a {
     color:#252525 !important;
     background-color: #FFD166;
@@ -71,13 +75,36 @@
      padding-bottom: 10px;
 }
 
-.profileText{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    font-size: 23px;
-    color: #d9d9d9;
-    width: 700px;
-    margin-top: 66px;
+/* ---- MEDIA BREAKPOINTS ---- */
+@media(max-width: 1230px) {
+   #hyperlinks {
+    position:relative;
+    top: 35px;
+    right: 100px;
+   }
+
+   #title {
+    position:relative;
+    left: 100px;
+    top: 15px;
+   }
+}
+
+@media(max-width: 1024px){
+    #title{
+        position:relative;
+        left: 85px;
+    }
+
+    #hyperlinks {
+    position:relative;
+    top: 35px;
+    right: 80px;
+    }
+
+    #hl {
+        margin-right: 20px;
+    }
 }
 
 /* #social {
