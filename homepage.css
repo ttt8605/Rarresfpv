@@ -81,7 +81,7 @@ hr{
 
 .profile{
     height: 290px;
-    height: 290px;
+    width: 290px;
     margin-top: 10px;
     margin-right: 60px;
 }
@@ -349,20 +349,31 @@ hr{
     }
 }
 
+@media(max-width: 1222px) {
+    .profileText{
+        font-size: 20px;
+    }
+
+    .profile {
+    height: 240px;
+    width: 240px;
+    position: relative;
+    left: -30px;
+    }
+}
+
+@madie(max-width: 1187px){
+ .profile{
+    height: 220px;
+    width: 220px;
+ }
+
+ .profileText {
+    font-size: 19px;
+ }
+}
 
 @media(max-width:1024px){
-.fastLinks{
-    font-size: 15px;
-}
-
-.title{
-    font-size: 30px;
-}
-
-.profile{
-    height: 221px;
-}
-
 .profileText{
   font-size: 20px;
 }
@@ -387,39 +398,56 @@ hr{
 }
 
 @media(max-width: 991px) {
-  #meniu2 {
-    display: none !important;
+  .profile{
+    height: 200px;
+    width: 200px;
+  }
+
+  .profileText{
+    font-size: 18px;
   }
 }
 
-@media(max-width:700px){
+@media(max-width:767px){
     .profileText{
         font-size: 15px;
         width: 500px;
+    }
+    
+    #title{
+        font-size: 45px;
+        position: relative;
+        top: -2px;
+        left: 25px;
     }
 
     #meniu1{
         display: none;
     }
+
     #meniu2{               
          display: block;
-         background-color: #252525;
+         background-color: #373737;
+         border-bottom-left-radius: 20px;
+         border-bottom-right-radius: 20px;
+         height: 400px;
      }
-
-     #meniu2 a {
-         color: #f2f2f2;
-     }
- 
-     #toggle {
-         background-color: #f2f2f2;
-     }
+     
+      #toggle{
+        background-color: #373737;
+     } 
  
      #closeBtn {
-       background-color: #f2f2f2;
+       background-color: #FFD166;
      }
  
      #list {
          background-color: #373737;
+         /* display: flex;
+         justify-content: start;
+         align-items: start;
+         position: relative;
+         top: 100px; */
      }
  }
 

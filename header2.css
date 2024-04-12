@@ -3,15 +3,19 @@ body{
 }
 
 nav{
-    background-color: #FFD166;
+    background-color: #373737;
 }
 
 #offcanvasNavbar{
-    background-color: #FFD166;
+    font-family:'Russo One';
+    color: #f2f2f2;
 }
 
 .offcanvas-header{
-    padding-bottom:0px ;
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #373737 !important;
 }
 
 .offcanvas-body{
