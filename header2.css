@@ -8,7 +8,7 @@ nav{
 
 #offcanvasNavbar{
     font-family:'Russo One';
-    color: #f2f2f2;
+    color: #f2f2f2 !important;
 }
 
 .offcanvas-header{
@@ -23,7 +23,7 @@ nav{
 }
 
 .navbar-brand{
-    color: #252525;
+    color: #373737;
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
 }

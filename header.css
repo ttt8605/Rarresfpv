@@ -107,6 +107,23 @@
     }
 }
 
+@media(max-width: 991px){
+    #hl{
+       font-size: large;
+    }
+
+    #hyperlinks {
+        position:relative;
+        top: 38px;
+        right: 70px;
+        }
+
+        #title{
+        position:relative;
+        left: 70px;
+        }
+}
+
 /* #social {
     margin-left: 48px;
 }

@@ -431,6 +431,7 @@ hr{
     font-size: 18px;
   }
 }
+
 @media(max-width:911px){
     #meniu1{
         display: none;
@@ -439,45 +440,56 @@ hr{
     #meniu2{               
          display: block;
      }
+
      .container-fluid{
         background-color: #373737 ;
         width: 100%;
         height: 90px;
      }
+
      #title {
         font-size: 45px;
         position: relative;
-        top: -2px;
-        left: 25px;
-      
+        left: 47px;
+        top: 8px;
+        color: #f2f2f2 !important;
     }
+
+    /* #toggle {
+        
+    } */
+
     .profile{
-        left: 0px;
         margin-right: 0px;
     }
+
     .profileText{
         font-size: 15px;
         width: 500px;
         margin-top: 30px; 
-       position: relative; 
-       left: 0px;
-     text-align: center;
-     margin-right: 0px;
+        position: relative; 
+        left: 0px;
+        text-align: center;
+        margin-right: 0px;
     }
+
     #description{
         flex-direction: column;
         margin-top: 100px;
         justify-content: space-evenly;
         align-items: center;
     }
+
+    .social{
+      width: 220px;
+      position: relative;
+      top: 28px;
+      left: 30px;
+    }
 }
 
 
 @media(max-width:767px){
-
-
-
-     
       #toggle{
         background-color: #373737;
      } 
@@ -494,19 +506,25 @@ hr{
          position: relative;
          top: 100px; */
      }
+
+     .social{
+        width: 200px;
+        position: relative;
+        top: 28px;
+        left: 30px;
+     }
  }
 
 
 @media(max-width:674px){
-    .media{
-         width: 17px;
-    }
     .fastLinks{
          font-size: 13px;
     }
+
     .pages {
          width: 240px;
      }
+
     .but1{
          width: 92px;
         height: 37px;
@@ -515,41 +533,48 @@ hr{
     .title{
          font-size: 25px;
     }
+
     #title {
         font-size: 35px;
         position: relative;
         left: 25px;
         top: 4px;
-      
     }
+
     header{
         height: 535px;
     }
     
     .profile{
-         height: 194px;
+         height: 195px;
     }
+
     /* .profileText {
          font-size: 12px;
          width: 422px;
          margin-top: 47px;
      } */
+
     .img1Text{
          font-size: 12px;
          width: 300px;
     }
+
   .img2:first-child{
     margin-right: 0px;
   }
+
     .img2Button{
          width:83px ;
     }
 
     .projectIntro{
-        margin-top: 50px;
+        margin-top: 70px;
+        position: relative;
+        left: 10px;
         display: flex;
-        justify-content: start;
-        align-items: center;
+        /* justify-content: start;
+        align-items: center; */
         flex-direction: row;
         width: 90%;
     }
@@ -558,6 +583,17 @@ hr{
         color: #3A8AC3;
         font-size: 30px;
     }
+
+    #letsWork{
+        margin-top: 70px;
+        position: relative;
+        left: 10px;
+    }
+
+    .proposal{
+        font-size: 1.8em;
+     }
+
 
     #Ylink{
         font-size: 15px;
@@ -605,46 +641,109 @@ hr{
         width: 125px;
         height: 40px;
      }
-     .proposal{
-        font-size: 1.7em;
-     }
+
      .contactButton{
         font-size: medium;
      }
+
+     .footerText{
+       font-size: 14px;
+     }
+
+     .social{
+      width: 200px;
+      position: relative;
+      top: 34px;
+      left: 30px;
+     }
+
+     .media{
+        width: 22px;
+     }
+}
+@media(max-width: 630px) {
+    .footerText{
+        font-size: 14px;
+      }
+ 
+      .social{
+       width: 180px;
+       position: relative;
+       top: 34px;
+       left: 30px;
+       margin-left: 10px;
+      }
+ 
+      .media{
+         width: 20px;
+      }
+}
+
+@media(max-width: 600px) {
+    #footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerText{
+        font-size: 14px;
+      }
+ 
+      .social{
+       width: 180px;
+       /* position: relative;
+       top: 34px;
+       left: 30px; */
+       /* margin-left: 10px; */
+      }
+ 
+      .media{
+         width: 20px;
+      }
 }
 
 @media(max-width:500px){
     .profileText{
-        width: 404px;
+        width: 370px;
         font-size: 13px;
     }
+
+    .projectTitle{
+        color: #3A8AC3;
+        font-size: 25px;
+    }
+
+    .proposal{
+        font-size: 1.5em;
+     }
 }
 
 @media(max-width:450px){
-    .media{
+    /* .media{
          width: 14px;
          margin-left:15px ;
     }
 
     .social{
          width:143px ;
-    }
+    } */
 
     .but1{
      width: 100px;
      height: 31px;
      border-radius:8px;
     }
+
     header{
         height: 433px;
     }
+
     .container-fluid{
         height: 64px;
     }
 
-    .profile{
-        margin-top: 17px;
-    }
     #title{
         font-size: 25px;
     }
@@ -665,17 +764,43 @@ hr{
      }
 
      .profile{
-         margin-top: 37px;
-         height: 183px;
+         margin-top: 17px;
+         height: 180px;
+         position: relative;
+         left: -5px;
      }
 
      .profileText {
          font-size: 12px;
          width: 297px;
-         margin-top: 44px;
+         margin-top: 40px;
          text-align: center;
      }
 
+     .projectIntro{
+        position: relative;
+        left: 17px;
+    }
+    
+    .projectTitle{
+        color: #3A8AC3;
+        font-size: 20px;
+    }
+
+    #Ylink {
+        font-size: 13px;
+    }
+
+    #letsWork{
+        margin-top: 70px;
+        position: relative;
+        left: 17px;
+    }
+
+    .proposal{
+        font-size: 1.7em;
+     }
+     
      .img1 {
          height: 315px;
          margin-top: 54px;
@@ -706,32 +831,8 @@ hr{
          top: 58px;
          left: 1px;
      }
- 
-     .projectTitle {
-        font-size: 15px;
-    }
 
-    #Ylink {
-        font-size: 11px;
-    }
-
-     .boutMe {
-         font-size: 15px;
-         width: 172px;
-         margin: 11px;
-         padding: 6px;
-     }
-
-     .aboutMe{
-        width: 120px;
-        font-size: 12px;
-     }
-
-     .boutMeText {
-         width: 64%;
-     }
-
-     #footer {
+     /* #footer {
          margin-top: 44px;
      }
 
@@ -747,5 +848,5 @@ hr{
 
      .footerText{
          margin-bottom: 10px;
-     }
+     } */
 }
