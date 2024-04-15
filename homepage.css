@@ -18,7 +18,6 @@ header{
      justify-content: space-between;
      align-items: center;
      /* margin-top: 20px; */
-  
      position: relative;
      background-color: #373737 ;
      width: 100%;
@@ -26,27 +25,31 @@ header{
      border-bottom-left-radius: 20px;
      border-bottom-right-radius: 20px;
 }
+
 .offcanvas-body{
     margin-top: 50px;
     background-color: #252525;
 }
+
 .nav-item{
     margin-top: 20px;
-
 }
+
 #fastlinksMobile{
-   
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: larger;
     color: #f2f2f2 !important;
 }
+
 /* menu queries */
+
 #meniu1{
     display: block;
     width: 100%;
 
 }
+
 #description{
     display: flex;
     flex-direction: row;
@@ -133,7 +136,6 @@ hr{
     left: -35px;
     /* margin-left: 10px; */
 }
-
 
 .projectTitle{
     margin-top: 15px;
@@ -419,6 +421,7 @@ hr{
     top: 25px;
     left: 50px;
 }
+
 }
 
 @media(max-width: 991px) {
@@ -455,12 +458,8 @@ hr{
         color: #f2f2f2 !important;
     }
 
-    /* #toggle {
-        
-    } */
-
     .profile{
-        margin-right: 0px;
+        margin-left: 95px;
     }
 
     .profileText{
@@ -513,6 +512,10 @@ hr{
         top: 28px;
         left: 30px;
      }
+
+     #contactButton{
+        font-size: large;
+     }
  }
 
 
@@ -555,10 +558,7 @@ hr{
          margin-top: 47px;
      } */
 
-    .img1Text{
-         font-size: 12px;
-         width: 300px;
-    }
+    
 
   .img2:first-child{
     margin-right: 0px;
@@ -594,6 +594,9 @@ hr{
         font-size: 1.8em;
      }
 
+    #contactButton{
+        font-size: large;
+     }
 
     #Ylink{
         font-size: 15px;
@@ -603,7 +606,14 @@ hr{
         width: 441px;
         height: 307px;
     }
-    
+
+     .img1Text{
+         font-size: 12px;
+         width: 300px;
+         display: flex;
+         align-content: flex-start;
+    }
+
     .twoImgRow{
         margin-top: 30px;
     }
@@ -615,24 +625,11 @@ hr{
     .img2Text{
         top: 105px;
     }
-
-    .boutMeText{
-         font-size: 12px;
-         margin-top: 40px;
-    }
-
-    #footer {
-         margin-top: 50px;
-     }
-
-     .footerText{
-         font-size: 11px;
-     }
-     
+  
      #hl{
-         text-decoration: none;
-         color: #252525;
-        font-family: 'Roboto', sans-serif;
+       text-decoration: none;
+       color: #252525;
+       font-family: 'Roboto', sans-serif;
        font-weight: 300;
        font-size: 17px;
      }
@@ -642,26 +639,29 @@ hr{
         height: 40px;
      }
 
-     .contactButton{
-        font-size: medium;
+      #footer {
+     margin-top: 50px;
      }
 
      .footerText{
-       font-size: 14px;
+      font-size: 13px;
+      position: relative;
+      right: 30px;
      }
 
      .social{
       width: 200px;
       position: relative;
       top: 34px;
-      left: 30px;
+      left: 15px;
      }
 
      .media{
-        width: 22px;
+      width: 22px;
      }
 }
-@media(max-width: 630px) {
+
+/* @media(max-width: 630px) {
     .footerText{
         font-size: 14px;
       }
@@ -677,9 +677,9 @@ hr{
       .media{
          width: 20px;
       }
-}
+} */
 
-@media(max-width: 600px) {
+/* @media(max-width: 600px) {
     #footer{
         display:flex;
         flex-direction: column;
@@ -696,12 +696,31 @@ hr{
        /* position: relative;
        top: 34px;
        left: 30px; */
-       /* margin-left: 10px; */
+       /* margin-left: 10px; 
       }
  
       .media{
          width: 20px;
       }
+} */
+
+@media(max-width: 550px) {
+    .footerText{
+        font-size: 12px;
+        position: relative;
+        right: 30px;
+       }
+  
+       .social{
+        width: 190px;
+        position: relative;
+        top: 34px;
+        left: 15px;
+       }
+
+    .media{
+     width: 17px;
+     }
 }
 
 @media(max-width:500px){
@@ -716,8 +735,14 @@ hr{
     }
 
     .proposal{
-        font-size: 1.5em;
+        font-size: 1.6em;
      }
+
+       .social{
+        width: 190px;
+        height: 30px;
+        margin: 0px;
+       }
 }
 
 @media(max-width:450px){
