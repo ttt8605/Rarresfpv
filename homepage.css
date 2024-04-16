@@ -723,7 +723,7 @@ hr{
      }
 }
 
-@media(max-width:500px){
+@media(max-width: 500px){
     .profileText{
         width: 370px;
         font-size: 13px;
@@ -738,23 +738,21 @@ hr{
         font-size: 1.6em;
      }
 
-       .social{
-        width: 190px;
-        height: 30px;
-        margin: 0px;
+       #footer{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+     } 
+   
+     /* !!!!!! */
+       
+       .media{
+        width: 19px;
        }
 }
 
 @media(max-width:450px){
-    /* .media{
-         width: 14px;
-         margin-left:15px ;
-    }
-
-    .social{
-         width:143px ;
-    } */
-
     .but1{
      width: 100px;
      height: 31px;
@@ -779,9 +777,9 @@ hr{
          font-size: 12px;
     }
 
-    .pages{
+    /* .pages{
          width: 212px;
-    }
+    } */
 
     .title {
          font-size: 25px;
@@ -856,22 +854,4 @@ hr{
          top: 58px;
          left: 1px;
      }
-
-     /* #footer {
-         margin-top: 44px;
-     }
-
-     .media {
-         width: 15px;
-         margin-left: 17px;
-     }
-
-     .social2 {
-         width: 204px;
-         margin-left: 30px;
-     }
-
-     .footerText{
-         margin-bottom: 10px;
-     } */
 }
