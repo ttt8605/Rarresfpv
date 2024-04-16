@@ -277,8 +277,8 @@ hr{
     margin-top: 10px;
     border-style: none;
     background-color: #FFD166;
-    width: 130px;
-    height: 40px;
+    width: 125px;
+    height: 35px;
     border-radius: 10px;
 }
 
@@ -347,17 +347,16 @@ hr{
     font-weight: 400;
     font-size: 16px;
     color: rgba(217, 217, 217, 0.5);
-
 }
 
-.social{
+   .social{
     width: 215px;
+   }
 
-}
-p{
-    margin-top: 0;
+  p{
+   margin-top: 0;
    margin-bottom: 0rem;  
-}
+  }
 
 
 
@@ -708,12 +707,12 @@ p{
         align-items: center;
      } 
      .social{
-        margin-top: 5px;
+        margin-top: 20px;
         width: 190px;
      }
 
     .media{
-     width: 17px;
+     width: 19px;
      }
 }
 
@@ -729,16 +728,8 @@ p{
     }
 
     .proposal{
-        font-size: 1.6em;
+        font-size: 1.8em;
      }
-
-   
-   
-     /* !!!!!! */
-       
-       .media{
-        width: 19px;
-       }
 }
 
 @media(max-width:450px){
@@ -777,9 +768,7 @@ p{
 
      .profile{
          margin-top: 17px;
-         height: 180px;
-         position: relative;
-         left: -5px;
+         height: 180px;   
      }
 
      .profileText {
