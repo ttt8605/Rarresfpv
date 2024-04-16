@@ -47,7 +47,6 @@ header{
 #meniu1{
     display: block;
     width: 100%;
-
 }
 
 #description{
@@ -59,10 +58,6 @@ header{
 
 #meniu2{
     display: none;
-}
-
-.pages{
-     width: 289px; 
 }
 
 .media{
@@ -86,15 +81,6 @@ header{
      height: 40px;
      border-style: none;
 }
-
-/* .aboutDiv{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 70px;
-} */
 
 hr{
   color: #f2f2f2;
@@ -291,41 +277,6 @@ hr{
     font-size:larger;
 }
 
-/* .line{
-    width: 50%;
-    color: #d9d9d9;
-   
-}
-
-.line2{
-    width: 50%;
-    color: #d9d9d9;
-} */
-
-/* .boutMe{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    font-size:15px;
-    color: #3A8AC3;
-    width: 172px;
-    margin: 20px;
-    padding: 10px;
-    border-color: #3A8AC3;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.boutMeText{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    font-size:17px;
-    color: #d0d0d0;
-    width: 40%;
-    text-align: center;
-    margin-top: 100px;
-} */
 
 
 /* ---- FOOTER ---- */
@@ -412,13 +363,9 @@ hr{
     width: 354px;
 }
 
-
-
 .social{
     width: 215px;
-
 }
-
 }
 
 @media(max-width: 991px) {
@@ -503,7 +450,6 @@ hr{
 
      .social{
         width: 200px;
-
      }
 
      #contactButton{
@@ -516,20 +462,7 @@ hr{
     .fastLinks{
          font-size: 13px;
     }
-
-    .pages {
-         width: 240px;
-     }
-
-    .but1{
-         width: 92px;
-        height: 37px;
-    }
     
-    .title{
-         font-size: 25px;
-    }
-
     #title {
         font-size: 35px;
         position: relative;
@@ -550,8 +483,6 @@ hr{
          width: 422px;
          margin-top: 47px;
      } */
-
-    
 
   .img2:first-child{
     margin-right: 0px;
@@ -697,7 +628,6 @@ hr{
 @media(max-width: 550px) {
     .footerText{
         font-size: 12px;
-    
        }
 
        #footer{
@@ -706,6 +636,7 @@ hr{
         justify-content: center;
         align-items: center;
      } 
+
      .social{
         margin-top: 20px;
         width: 190px;
@@ -751,20 +682,10 @@ hr{
         font-size: 25px;
     }
 
-
     .fastLinks{
          margin-right: 13px;
          font-size: 12px;
     }
-
-    /* .pages{
-         width: 212px;
-    } */
-
-    .title {
-         font-size: 25px;
-         margin-top: 75px;
-     }
 
      .profile{
          margin-top: 17px;
