@@ -413,13 +413,7 @@ hr{
 }
 
 
-/* AICI AM PUS WIDTH MAI MIC PENTRU ECRANELE MARI - specific page elements */
-@media(min-width: 1300px) {
-  .droneSection {
-    width: 80%;
-  }
-}
-
+/* SPECIFIC ELEMENTS */
 @media(max-width:700px){
     .droneSection{
         flex-direction:column;
