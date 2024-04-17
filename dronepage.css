@@ -192,43 +192,6 @@ hr{
     color: #f2f2f2;
 }
 
-.letsWork {
-    margin-top: 130px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: row;
-    width: 80%;
-    position: relative;
-    left: -35px;
-    margin-bottom: 150px;
-}
-
-.proposal {
-    font-family:'Russo One';
-    margin-top: 15px;
-    color: #3A8AC3;
-    font-size: 2.5em;
-}
-
-.contact-link{
-    margin-top: 10px;
-    border-style: none;
-    background-color: #FFD166;
-    width: 125px;
-    height: 35px;
-    border-radius: 10px;
-}
-
-#contactButton{
-    color:#252525 !important;
-    background-color: #FFD166;
-    text-decoration: none !important;
-    font-family:'Roboto', sans-serif;
-    font-weight: 500;
-    font-size:larger;
-}
-
 #footer{
     display: flex;
     width: 100%;
@@ -260,7 +223,6 @@ hr{
 
 
 /* GENERAL ELEMENTS */
-
 @media(max-width: 1222px) {
     .profile {
     height: 290px;
@@ -273,6 +235,18 @@ hr{
 .social{
     width: 215px;
 }
+
+#title{
+    position:relative;
+    left: 63px;
+ }
+}
+
+@media(max-width: 991px){
+ #title{
+    position:relative;
+    left: 60px;
+ }
 }
 
 @media(max-width:911px){
@@ -525,6 +499,15 @@ p{
 
 #a{
     margin-top: 20px;
+}
+
+.social{
+  margin-top: 10px;
+
+}
+
+.footerText{
+margin-top: 20px;
 }
 }
 

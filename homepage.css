@@ -377,6 +377,11 @@ hr{
   .profileText{
     font-size: 18px;
   }
+
+  #title{
+    position:relative;
+    left: 60px;
+ }
 }
 
 @media(max-width:911px){
