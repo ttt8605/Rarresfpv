@@ -59,14 +59,21 @@ hr{
   width: 50%;
 }
 
+#profile{
+   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
 .profile{
-    height: 290px;
-    width: 290px;
-    margin-top: 100px;
-    margin-right: 60px;
+    height: 310px;
+    width: 310px;
 }
 
 #wrapper{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -114,8 +121,8 @@ hr{
 .a{
     width: 500px;
     height: 100px;
-
 }
+
 .droneName{
     font-family:'Russo One';
     color: #468FAF;
@@ -169,7 +176,7 @@ hr{
 
 .SecondTitle{
     /* margin-top: 5px; */
-    color: #d9d9d9;
+    color: rgba(217, 217, 217, 0.5);
     font-size: 1.5em;
 }
 
@@ -253,45 +260,19 @@ hr{
 
 
 /* GENERAL ELEMENTS */
-  @media(max-width: 1230px){
-    .letsWork {
-        position: relative;
-        left: -5px;
-    }
-}
 
 @media(max-width: 1222px) {
     .profile {
-    height: 240px;
-    width: 240px;
-    position: relative;
-    left: -30px;
+    height: 290px;
+    width: 290px;
+    margin-left: 85px;
     }
 }
 
-@media(max-width: 1187px){
- .profile{
-    height: 220px;
-    width: 220px;
- }
-}
-
 @media(max-width:1024px){
-.profileText{
-  font-size: 20px;
-}
-
 .social{
     width: 215px;
 }
-
-}
-
-@media(max-width: 991px) {
-  .profile{
-    height: 200px;
-    width: 200px;
-  }
 }
 
 @media(max-width:911px){
@@ -315,10 +296,6 @@ hr{
         left: 47px;
         top: 8px;
         color: #f2f2f2 !important;
-    }
-
-    .profile{
-        margin-left: 95px;
     }
 
     .social{
@@ -366,24 +343,12 @@ hr{
         left: 25px;
         top: 4px;
     }
-
-    header{
-        height: 535px;
-    }
     
     .profile{
-         height: 195px;
+         height: 250px;
+         width: 250px;
+         margin-left: 90px;
     }
-
-    #letsWork{
-        margin-top: 70px;
-        position: relative;
-        left: 10px;
-    }
-
-    .proposal{
-        font-size: 1.8em;
-     }
 
     #contactButton{
         font-size: large;
@@ -416,6 +381,63 @@ hr{
      }
 }
 
+@media(max-width: 550px) {
+    .footerText{
+        font-size: 12px;
+       }
+
+       #footer{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+     } 
+
+     .social{
+        margin-top: 20px;
+        width: 190px;
+     }
+
+    .media{
+     width: 19px;
+     }
+}
+
+/* @media(max-width: 500px){
+    
+} */
+
+@media(max-width:450px){
+    .but1{
+     width: 100px;
+     height: 31px;
+     border-radius:8px;
+    }
+
+    header{
+        height: 500px;
+    }
+
+    .container-fluid{
+        height: 64px;
+    }
+
+    #title{
+        font-size: 25px;
+    }
+
+    .fastLinks{
+         margin-right: 13px;
+         font-size: 12px;
+    }
+
+     .profile{
+         /* margin-top: 17px; */
+         height: 180px;  
+         width: 180px; 
+     }
+}
+
 
 /* AICI AM PUS WIDTH MAI MIC PENTRU ECRANELE MARI - specific page elements */
 @media(min-width: 1300px) {
@@ -436,38 +458,39 @@ hr{
     }
 
     .droneName{
+        
         color: #468FAF;
         font-size: 1.5em;
     }
 
     .droneWidth{
         margin-top: 5px;
-        color: #d9d9d9;
+        color: rgba(217, 217, 217, 0.5);
         font-size: 1.2em;
     }
 
     .leftDiv{
-        width: 350px;
-        height: 300px;
-        border-radius: 8px;
+        width: 450px; /* 330 */
+        height: 330px;  /* 300*/
+        border-radius: 20px;
         margin-right: 5px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
 
     .rightDiv{
         width: 350px;
         height: 300px;
         margin-right: 5px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .secondDiv{
-        width: 350px;
+        width: 450px;
         height: 300px;
-        background-color:#6F6C6C ;
+        background-color:#373737 ;
         border: solid 1px;
         border-color: #468FAF;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 
 .FirstTitle{
@@ -484,12 +507,16 @@ hr{
     width: 90%;
     text-align: left;
     font-family: 'Roboto' ;
-    font-weight: 600;
+    font-weight: 400;
     font-size: small;
     margin-right: 10px;
     margin-left: 20px;
     margin-top: 80px;
-    color: #252525;
+    color: #f2f2f2;
+}
+
+p{
+  padding-bottom: 10px;
 }
 
 #leftDiv{
