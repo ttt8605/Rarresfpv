@@ -10,7 +10,6 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
     position: relative;
     background-color: #373737 ;
     width: 100%;
@@ -197,6 +196,8 @@ a{
     color: #f2f2f2;
 }
 
+
+/* ---- FOOTER ---- */
 #footer{
     display: flex;
     width: 100%;
@@ -240,19 +241,7 @@ a{
 .social{
     width: 215px;
 }
-
-/* #title{
-    position:relative;
-    left: 63px;
- } */
 }
-
-/* @media(max-width: 991px){
- #title{
-    position:relative;
-    left: 60px;
- }
-} */
 
 @media(max-width:911px){
     #meniu1{
@@ -263,44 +252,30 @@ a{
          display: block;
      }
 
+     #toggle {
+        background-color: #d9d9d9;
+    }
+
+    #closeBtn {
+      background-color: #d9d9d9;
+    }
+
      .container-fluid{
         background-color: #373737 ;
         width: 100%;
         height: 90px;
      }
-/* 
-     #title {
-        font-size: 45px;
-        position: relative;
-        left: 47px;
-        top: 8px;
-        color: #f2f2f2 !important;
-    } */
+
+      #list {
+        background-color: #373737;
+    }
 
     .social{
       width: 220px;
     }
 }
 
-
 @media(max-width:767px){
-      #toggle{
-        background-color: #373737;
-     } 
- 
-     #closeBtn {
-       background-color: #FFD166;
-     }
- 
-     #list {
-         background-color: #373737;
-         /* display: flex;
-         justify-content: start;
-         align-items: start;
-         position: relative;
-         top: 100px; */
-     }
-
      .social{
         width: 200px;
      }
@@ -309,7 +284,6 @@ a{
         font-size: large;
      }
  }
-
 
 @media(max-width:674px){
     .fastLinks{
@@ -324,9 +298,9 @@ a{
     }
     
     .profile{
-         height: 250px;
-         width: 250px;
-         margin-left: 90px;
+         height: 270px;
+         width: 270px;
+         /* margin-left: 90px; */
     }
 
     #contactButton{
@@ -359,6 +333,16 @@ a{
       width: 22px;
      }
 }
+
+@media(max-width:560px){
+    .social{
+      margin-top: 7px;
+    }
+    
+    .footerText{
+    margin-top: 20px;
+    }
+    }
 
 @media(max-width: 550px) {
     .footerText{

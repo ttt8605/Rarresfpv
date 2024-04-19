@@ -92,7 +92,7 @@ hr{
   }
 
 .profile{
-    height: 3100px;
+    height: 310px;
     width: 310px;
     margin-top: 8px;
     margin-right: 60px;
@@ -392,6 +392,14 @@ hr{
          display: block;
      }
 
+     #toggle {
+        background-color: #d9d9d9;
+    }
+
+    #closeBtn {
+      background-color: #d9d9d9;
+    }
+    
      .container-fluid{
         background-color: #373737 ;
         width: 100%;
@@ -445,11 +453,6 @@ hr{
  
      #list {
          background-color: #373737;
-         /* display: flex;
-         justify-content: start;
-         align-items: start;
-         position: relative;
-         top: 100px; */
      }
 
      .social{
@@ -479,7 +482,8 @@ hr{
     }
     
     .profile{
-         height: 195px;
+        height: 270px;
+         width: 270px;
     }
 
     /* .profileText {

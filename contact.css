@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
+main{
+    /* position: relative;
+    top: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -93,7 +102,7 @@ hr{
 }
 
 .container1{
-    margin-top: 142px;
+    margin-top: 140px;
     margin-right: 150px;
 }
 
@@ -104,27 +113,21 @@ hr{
    width: 360px;
 }
 
-main{
-    position: relative;
-    top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .mainpart{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-evenly;
+    margin-bottom: 150px;
 }
 
-#formGroupExampleInput4{
+#message{
     resize: none;
 }
 
+
+/* ---- FOOTER ---- */
 #footer{
     display: flex;
     width: 100%;
@@ -147,7 +150,11 @@ main{
 
    .social{
     width: 215px;
-   }
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+   }  
 
   p{
    margin-top: 0;
@@ -160,13 +167,27 @@ main{
     .profile {
     height: 290px;
     width: 290px;
-    margin-left: 85px;
     }
+}
+
+@media(max-width: 1199px){
+#text{
+    margin-bottom: 60px;
+    margin-left: 175px; 
+}
 }
 
 @media(max-width:1024px){
 .social{
     width: 215px;
+}
+}
+
+@media(max-width: 991px){
+#text{
+    font-size: 28px;
+    margin-top: 100px;
+    margin-left: 30px;
 }
 }
 
@@ -179,36 +200,31 @@ main{
          display: block;
      }
 
+     #toggle {
+        background-color: #d9d9d9;
+    }
+
+    #closeBtn {
+      background-color: #d9d9d9;
+    }
+
      .container-fluid{
         background-color: #373737 ;
         width: 100%;
         height: 90px;
      }
 
+     #list {
+        background-color: #373737;
+    }
+
     .social{
       width: 220px;
     }
+
 }
 
-
 @media(max-width:767px){
-      #toggle{
-        background-color: #373737;
-     } 
- 
-     #closeBtn {
-       background-color: #FFD166;
-     }
- 
-     #list {
-         background-color: #373737;
-         /* display: flex;
-         justify-content: start;
-         align-items: start;
-         position: relative;
-         top: 100px; */
-     }
-
      .social{
         width: 200px;
      }
@@ -217,7 +233,6 @@ main{
         font-size: large;
      }
  }
-
 
 @media(max-width:674px){
     .fastLinks{
@@ -232,9 +247,9 @@ main{
     }
     
     .profile{
-         height: 250px;
-         width: 250px;
-         margin-left: 90px;
+         height: 270px;
+         width: 270px;
+         /* margin-left: 90px; */
     }
 
     #contactButton{
@@ -255,7 +270,6 @@ main{
 
      .footerText{
       font-size: 13px;
-   
      }
 
      .social{
@@ -363,59 +377,6 @@ main{
 }
 }
 
-@media(max-width:700px){     
-    #meniu1{
-        display: none;
-    }
-    #meniu2{               
-        display: block;
-        background-color: #252525;
-    }
-    #meniu2 a {
-        color: #d9d9d9;
-    }
-
-    #toggle {
-        background-color: #d9d9d9;
-    }
-
-    #closeBtn {
-      background-color: #d9d9d9;
-    }
-
-    #list {
-        background-color: #1e1e1e;
-    }
-
-    .container1{
-        margin-right: 30px;
-    }
-
-     /* .navbar-toggle {
-        position: relative;
-        float: right;
-        padding: 9px 10px;
-        margin-top: 8px;
-        margin-right: 15px;
-        margin-bottom: 8px;
-        background-color: #252525;
-        border: 1px solid transparent;
-        border-radius: 4px;
-     }
-      */
-     /* .navbar-toggle .icon-bar {
-        display: block;
-        width: 22px;
-        height: 2px;
-        background-color:#252525;
-        border-radius: 1px;
-     }
-     
-     .navbar-toggle .icon-bar+.icon-bar {
-        margin-top: 4px;
-     } */
-}
-
 @media(max-width: 550px) {
     .container2 {
         margin-left: 10px;
@@ -467,6 +428,7 @@ main{
     height: 50px;
     color: #242424;
     }
+
     .profile{
         margin-top: 37px;
         height: 183px;
