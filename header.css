@@ -157,20 +157,15 @@
 
 @media(max-width:767px){
       #toggle{
-        background-color: #373737;
+        background-color: #f2f2f2;
      } 
  
      #closeBtn {
-       background-color: #FFD166;
+       background-color: #f2f2f2;
      }
  
      #list {
          background-color: #373737;
-         /* display: flex;
-         justify-content: start;
-         align-items: start;
-         position: relative;
-         top: 100px; */
      }
 
      #contactButton{
