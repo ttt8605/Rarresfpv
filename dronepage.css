@@ -128,7 +128,7 @@ a{
 
 .droneName{
     font-family:'Russo One';
-    color: #468FAF;
+    color: #3A8AC3;
     font-size: 2em;
 }
 
@@ -143,7 +143,7 @@ a{
     height: 300px;
     background-color:#373737 ;
     border: solid 1px;
-    border-color: #468FAF;
+    border-color: #3A8AC3;
     border-radius: 20px;
 }
 
@@ -173,7 +173,7 @@ a{
 }
 
 .FirstTitle{
-    color: #468FAF;
+    color: #3A8AC3;
     font-size: 1.8em;
 }
 

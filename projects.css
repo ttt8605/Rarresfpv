@@ -72,7 +72,7 @@ hr{
     width: 310px;
 }
 
-#wrapper{
+/* #wrapper{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +83,7 @@ hr{
 
 #wrapper:nth-last-child(2){
   margin-bottom: 150px;
-}
+} */
 
 .droneSection{
     display: flex;
@@ -119,7 +119,10 @@ hr{
 
 .a{
     width: 500px;
-    height: 100px;
+    height: 80px;
+    position: relative;
+    top: -67px;
+    left: 5px;
 }
 
 a{
@@ -129,26 +132,44 @@ a{
 
 .droneName{
     font-family:'Russo One';
-    color: #468FAF;
+    color: #3A8AC3;
     font-size: 2em;
 }
 
-.droneWidth{
+.drone{
     margin-top: 5px;
-    color: rgba(217, 217, 217, 0.5);
+    color: #f2f2f2;
     font-size: 1.5em;
 }
 
-.secondDiv{
+/* .secondDiv{
     width: 500px;
     height: 300px;
     background-color:#373737 ;
     border: solid 1px;
-    border-color: #468FAF;
+    border-color: #3A8AC3;
     border-radius: 20px;
+} */
+
+.lowerSection{
+    width: 90%;
+    text-align: left;
+    font-family: 'Roboto' ;
+    font-weight: 500;
+    font-size: medium;
+    margin-right: 10px;
+    color: #f2f2f2;
+    position: relative;
+    top: 80px;
 }
 
-.upperSection{
+/* asta era un id pentru numele dronei din "shot with.."*/
+/* #drone{     
+    font-family:'Russo One';
+    color: #3A8AC3;
+} */
+
+/* .upperSection{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -171,40 +192,28 @@ a{
     width: 40%;
     height: 90px;
     margin-top: 50px;
-}
+} */
 
-.FirstTitle{
-    color: #468FAF;
+/* .FirstTitle{
+    color: #3A8AC3;
     font-size: 1.8em;
 }
 
 .SecondTitle{
-    /* margin-top: 5px; */
+    /* margin-top: 5px; 
     color: rgba(217, 217, 217, 0.5);
     font-size: 1.5em;
-}
-
-.lowerSection{
-    width: 90%;
-    text-align: left;
-    font-family: 'Roboto' ;
-    font-weight: 500;
-    font-size: medium;
-    margin-right: 10px;
-    margin-left: 34px;
-    margin-top: 80px;
-    color: #f2f2f2;
-}
+} */
 
 .letsWork {
-    margin-top: 130px;
+    margin-top: 150px;
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
     align-items: center;
     flex-direction: row;
     width: 80%;
     position: relative;
-    left: 35px; 
+    left: 120px; 
     margin-bottom: 150px;
 }
 
@@ -444,7 +453,7 @@ a{
     }
 
     .droneName{
-        color: #468FAF;
+        color: #3A8AC3;
         font-size: 1.5em;
     }
 
@@ -474,12 +483,12 @@ a{
         height: 300px;
         background-color:#373737 ;
         border: solid 1px;
-        border-color: #468FAF;
+        border-color: #3A8AC3;
         border-radius: 20px;
     }
 
 .FirstTitle{
-    color: #468FAF;
+    color: #3A8AC3;
     font-size: 1.3em;
 }
 
