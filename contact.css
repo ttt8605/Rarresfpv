@@ -154,9 +154,9 @@ hr{
    .social{
     width: 215px;
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* align-content: center; */
    }  
 
     p{

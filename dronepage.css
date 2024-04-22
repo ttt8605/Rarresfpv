@@ -102,7 +102,7 @@ hr{
     background-size: cover; /* You can use other values like 'contain' or specific dimensions */
     background-position: center; /* You can adjust the positioning as needed */
     background-repeat: no-repeat; /* Prevent the image from repeating if it's smaller than the div */
-    /* margin-top: 20px; */
+    margin-top: 20px;
 }
 
 .rightDiv{
@@ -219,6 +219,8 @@ a{
 
    .social{
     width: 215px;
+    display: flex;
+    justify-content: space-between;
    }
 
   p{
@@ -232,7 +234,6 @@ a{
     .profile {
     height: 290px;
     width: 290px;
-    margin-left: 85px;
     }
 }
 
