@@ -418,7 +418,7 @@ a{
 
     /* !!!!!!! */
     .leftDiv{
-        width: 450px; /* 330 */
+        width: 400px; /* 330 */
         height: 330px;  /* 300*/
         /* margin-right: 5px; */
         /* margin-top: 20px; */
@@ -432,7 +432,7 @@ a{
     }
 
     .secondDiv{
-        width: 450px;
+        width: 400px;
         height: 300px;
         background-color:#373737 ;
         border: solid 1px;
