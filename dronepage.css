@@ -53,10 +53,10 @@ header{
      font-size:17px;
 }
 
-hr{
+/* hr{
   color: #f2f2f2;
   width: 50%;
-}
+} */
 
 #profile{
    width: 100%;
@@ -309,13 +309,13 @@ a{
         font-size: large;
      }
 
-     #hl{
+     /* #hl{
        text-decoration: none;
        color: #252525;
        font-family: 'Roboto', sans-serif;
        font-weight: 300;
        font-size: 17px;
-     }
+     } */
 
       #footer {
      margin-top: 30px;
@@ -505,11 +505,11 @@ margin-top: 20px;
 }
 
 @media(max-width:450px){
-    .but1{
+    /* .but1{
      width: 100px;
      height: 31px;
      border-radius:8px;
-    }
+    } */
 
     /* TEST */
     header{
@@ -522,7 +522,7 @@ margin-top: 20px;
     }
 
     #title{
-        font-size: 25px;
+        font-size: 26px;
     }
 
     .fastLinks{
