@@ -21,7 +21,7 @@ header{
 
 .offcanvas-body{
    margin-top: 50px;
-   background-color: #252525;
+   background-color: #373737;
 }
 
 .nav-item{
@@ -53,11 +53,6 @@ header{
      font-weight: 300;
      font-size:17px;
 }
-
-/* hr{
-  color: #f2f2f2;
-  width: 50%;
-} */
 
 #profile{
    width: 100%;
@@ -178,6 +173,7 @@ a{
     height: 90px;
 }
 */
+
 .letsWork {
     margin-top: 150px;
     display: flex;
@@ -269,23 +265,27 @@ a{
     }
     
     #meniu2{               
-         display: block;
+        display: block;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
      }
 
      #toggle {
         margin-top: 10px;
         margin-right: 15px;
-        background-color: #d9d9d9;
+        background-color: #f2f2f2;
     }
 
     #closeBtn {
-      background-color: #d9d9d9;
+      background-color: #f2f2f2;
     }
 
      .container-fluid{
         background-color: #373737 ;
         width: 100%;
         height: 90px;
+        border-bottom-left-radius: 20px;
+       border-bottom-right-radius: 20px;
      }
 
       #list {
@@ -327,14 +327,6 @@ a{
 
     #contactButton{
         font-size: large;
-     }
-
-     #hl{
-       text-decoration: none;
-       color: #252525;
-       font-family: 'Roboto', sans-serif;
-       font-weight: 300;
-       font-size: 17px;
      }
 
       #footer {
@@ -389,14 +381,8 @@ a{
 }
 
 @media(max-width:450px){
-    /* .but1{
-     width: 100px;
-     height: 31px;
-     border-radius:8px;
-    } */
-
     #title{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .fastLinks{
@@ -405,8 +391,8 @@ a{
     }
 
      .profile{
-         height: 190px;  
-         width: 190px; 
+         height: 230px;  
+         width: 230px; 
      }
 }
 
@@ -444,7 +430,7 @@ a{
       }
 }
 
-@media(max-width:560px){
+@media(max-width:570px){
     .a{
         width: 350px;
         position: relative;
@@ -498,14 +484,6 @@ a{
 p{
   padding-bottom: 10px;
 }
-
-.social{
-  margin-top: 7px;
-}
-
-.footerText{
-margin-top: 20px;
-}
 }
 
 @media(max-width: 500px){
@@ -524,7 +502,6 @@ margin-top: 20px;
     .leftDiv{
         width: 420px; /* 330 */
         height: 300px;  /* 300*/
-        border-radius: 20px;
     }
 
     .rightDiv{
@@ -542,32 +519,9 @@ margin-top: 20px;
         }
 }
 
-@media(max-width:450px){
-    /* .but1{
-     width: 100px;
-     height: 31px;
-     border-radius:8px;
-    } */
+/* @media(max-width:450px){
 
-    /* TEST */
-    header{
-        height: 90px;
-    }
-
-    #meniu2{
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-
-    #title{
-        font-size: 26px;
-    }
-
-    .fastLinks{
-         margin-right: 13px;
-         font-size: 12px;
-    }
-}
+} */
 
 @media(max-width: 360px){
 

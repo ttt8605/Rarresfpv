@@ -28,7 +28,7 @@ header{
 
 .offcanvas-body{
     margin-top: 50px;
-    background-color: #252525;
+    background-color: #373737;
 }
 
 .nav-item{
@@ -66,7 +66,7 @@ header{
 
 #fastLinks{
      text-decoration: none;
-     color: #252525;
+     color: #373737;
      font-family: 'Roboto',sans-serif;
      font-weight: 300;
      font-size:17px;
@@ -102,7 +102,7 @@ header{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 23px;
-    color: #d9d9d9;
+    color: #f2f2f2;
     width: 650px;
     margin-top: 30px;
     margin-right: 20px;
@@ -404,11 +404,11 @@ header{
      #toggle {
         margin-top: 10px;
         margin-right: 15px;
-        background-color: #d9d9d9;
+        background-color: #f2f2f2;
     }
 
     #closeBtn {
-      background-color: #d9d9d9;
+      background-color: #f2f2f2;
     }
     
      .container-fluid{
@@ -422,7 +422,6 @@ header{
         position: relative;
         left: 47px;
         top: 8px;
-        color: #f2f2f2 !important;
     }
 
     .profile{
@@ -451,7 +450,6 @@ header{
 
     }
 }
-
 
 @media(max-width:767px){
       #toggle{
@@ -523,7 +521,6 @@ header{
     }
     
     .projectTitle{
-        color: #3A8AC3;
         font-size: 30px;
     }
 
@@ -569,13 +566,13 @@ header{
         top: 105px;
     }
   
-     #hl{
+     /* #hl{
        text-decoration: none;
        color: #252525;
        font-family: 'Roboto', sans-serif;
        font-weight: 300;
        font-size: 17px;
-     }
+     } */
 
      .AddMoreButton{
         width: 125px;
@@ -673,7 +670,6 @@ header{
     }
 
     .projectTitle{
-        color: #3A8AC3;
         font-size: 25px;
     }
 
@@ -683,11 +679,11 @@ header{
 }
 
 @media(max-width:450px){
-    .but1{
+    /* .but1{
      width: 100px;
      height: 31px;
      border-radius:8px;
-    }
+    } */
 
     header{
         height: 500px;
@@ -698,7 +694,7 @@ header{
     }
 
     #title{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .fastLinks{
@@ -724,7 +720,6 @@ header{
     }
     
     .projectTitle{
-        color: #3A8AC3;
         font-size: 20px;
     }
 
