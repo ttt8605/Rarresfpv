@@ -458,14 +458,14 @@ a{
 
     /* !!!!!!! */
      .leftDiv{
-        width: 370px; /* 330 */
-        height: 330px;  /* 300*/
+        width: 355px; /* 330 */
+        height: 320px;  /* 300*/
         /* margin-right: 5px; 
          margin-top: 20px;  */
     }
 
     .rightDiv{
-        width: 370px;
+        width: 350px;
         height: 300px;
        
     } 
