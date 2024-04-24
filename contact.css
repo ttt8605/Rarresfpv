@@ -15,16 +15,13 @@ header{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-color: #373737 ;
     width: 100%;
     height: 130px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+  
 }
-
 .offcanvas-body{
    margin-top: 50px;
-   background-color: #252525;
+   background-color: #212529;
 }
 
 .nav-item{
@@ -202,6 +199,11 @@ header{
      #list {
         background-color: #373737;
     }
+    #noughty-div{
+       
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
 
     .social{
       width: 220px;
