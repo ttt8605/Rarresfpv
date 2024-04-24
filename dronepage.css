@@ -260,6 +260,7 @@ a{
      .container-fluid{
         width: 100%;
         height: 90px;
+        background-color: none;
      }
 
       #list {
@@ -268,6 +269,10 @@ a{
 
     .social{
       width: 220px;
+    }
+
+    .leftDiv{
+        margin-bottom: 20px;
     }
 }
 
@@ -409,6 +414,7 @@ a{
     .leftDiv{
         width: 370px; /* 330 */
         height: 330px;  /* 300*/
+   
     }
 
     .rightDiv{
@@ -445,7 +451,7 @@ p{
 }
 
 #leftDiv{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 #a{
