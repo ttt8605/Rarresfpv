@@ -18,7 +18,7 @@ header{
 
 .offcanvas-body{
    margin-top: 50px;
-   background-color: #252525;
+   background-color: #212529;
 }
 
 .nav-item{
@@ -388,7 +388,7 @@ a{
       margin-top: 5px;
     }
    
-    #naughty-div{
+    #noughty-div{
         background-color: #252525;
     }
 }
