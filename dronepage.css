@@ -389,7 +389,7 @@ a{
     }
    
         .container-fluid {
-            background-color: none;
+            background-color: none !important;
             width: 100%;
             height: 90px;
         }
