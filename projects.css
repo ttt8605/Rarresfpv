@@ -12,16 +12,14 @@ header{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-color: #373737 ;
     width: 100%;
     height: 130px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    
 }
 
 .offcanvas-body{
    margin-top: 50px;
-   background-color: #373737;
+   background-color: #212529;
 }
 
 .nav-item{
@@ -86,7 +84,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;  /* old: width: 90% */
 }
 
@@ -284,8 +282,6 @@ a{
         background-color: #373737 ;
         width: 100%;
         height: 90px;
-        border-bottom-left-radius: 20px;
-       border-bottom-right-radius: 20px;
      }
 
       #list {
@@ -294,6 +290,12 @@ a{
 
     .social{
       width: 220px;
+    }
+
+    .letsWork {
+        margin-top: 80px;
+  
+        margin-bottom: 80px;
     }
 }
 
@@ -411,7 +413,15 @@ a{
     position: relative;
     left: 70px;
   }
-}
+  #noughty-div{
+
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+        }
+
+    }
+
 
 @media(max-width:700px){
     .projectSection{
@@ -448,27 +458,23 @@ a{
 
     /* !!!!!!! */
      .leftDiv{
-        width: 450px; /* 330 */
+        width: 370px; /* 330 */
         height: 330px;  /* 300*/
         /* margin-right: 5px; 
          margin-top: 20px;  */
     }
 
     .rightDiv{
-        width: 350px;
+        width: 370px;
         height: 300px;
-        position: relative;
-        left: -47px;
+       
     } 
 
-    /* .secondDiv{
-        width: 450px;
+    .secondDiv{
+        width: 370px;
         height: 300px;
-        background-color:#373737 ;
-        border: solid 1px;
-        border-color: #3A8AC3;
-        border-radius: 20px;
-    } */
+   
+    }
 
 .lowerSection{
     font-size: small;
@@ -499,15 +505,8 @@ p{
     
     }
 
-    .leftDiv{
-        width: 420px; /* 330 */
-        height: 300px;  /* 300*/
-    }
+ 
 
-    .rightDiv{
-        width: 350px;
-        height: 300px;
-    }
 
     .proposal {
         font-size: 2em;
