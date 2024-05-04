@@ -108,6 +108,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
 }
+
 .MoreInfoDiv{
     display: flex;
     flex-wrap: wrap;
@@ -121,8 +122,8 @@ header{
     background-color: #373737;
     border: solid 1px;
     border-color: #3A8AC3;
-  
 }
+
 .IncludedIn{
     width: 500px;
     height: 300px;
@@ -133,9 +134,9 @@ header{
     justify-content: space-evenly;
     color: #f2f2f2;
     font-size: 1.2em;
-  
-    
+    padding-left: 100px;
 }
+
 .Specifications{
     width: 500px;
     height: 300px;
@@ -145,8 +146,11 @@ header{
     align-items: start;
     justify-content: space-evenly;
     color: #f2f2f2;
-    font-size: 1em;
-    
+    padding-left: 20px;
+}
+
+.Specifications p{
+font-size: 1.1em;
 }
 
 .IncludedInTitle{
@@ -162,11 +166,14 @@ header{
     justify-content: space-evenly;
 }
 
-.SpecificationsTitle{
-    color: #3A8AC3;
-    font-size: 1.8em;
+#dropDown{
+ display: none;
 }
 
+.SpecificationsTitle{
+    color: #3A8AC3;
+    font-size: 1.9em;
+}
 
 .a{
     width: 500px;
@@ -306,6 +313,10 @@ a{
          border-bottom-right-radius: 20px;
      }
 
+     #dropDown{
+        display: block;
+     }
+     
      #toggle {
         margin-top: 10px;
         margin-right: 15px;
