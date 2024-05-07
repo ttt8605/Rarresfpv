@@ -16,6 +16,10 @@ header{
 
 }
 
+.accordion{
+    display: none;
+}
+
 .offcanvas-body{
    margin-top: 50px;
    background-color: #212529;
@@ -294,6 +298,8 @@ a{
     height: 290px;
     width: 290px;
     }
+
+    
 }
 
 @media(max-width:1024px){
@@ -329,6 +335,11 @@ a{
         background-color: #373737;
      }
 
+     .accordion{
+        --bs-accordion-border-color: #3A8AC3;
+       
+     }
+
      .accordion-item{
         margin-top: 20px;
         width: 500px;
@@ -341,7 +352,7 @@ a{
         color: #3A8AC3;
         /* border-style: solid 0.3px !important; */
         /* border-color: #468faf !important; */
-        background-color: green;
+   
      }
 
      /* .accordion-button.collapsed {
@@ -358,6 +369,7 @@ a{
 
      .accordion-button:not(.collapsed){
         background-color: #373737 !important;
+        color: #3A8AC3;
         /* border-radius: 20px; */
     }
 
@@ -365,7 +377,14 @@ a{
         background-color: #373737 !important;
         border-radius: 20px;
     }
-    
+    .accordion-item:first-of-type>.accordion-header .accordion-button {
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+    .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+        border-bottom-right-radius:   20px !important; 
+         border-bottom-left-radius:  20px !important;
+    }
      .MoreInfoDiv{
       display: none;
      }
