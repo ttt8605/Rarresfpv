@@ -337,7 +337,6 @@ a{
 
      .accordion{
         --bs-accordion-border-color: #3A8AC3;
-       
      }
 
      .accordion-item{
@@ -349,6 +348,7 @@ a{
      .accordion-button{
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
+        font-size: 20px;
         color: #3A8AC3;
         /* border-style: solid 0.3px !important; */
         /* border-color: #468faf !important; */
@@ -377,14 +377,17 @@ a{
         background-color: #373737 !important;
         border-radius: 20px;
     }
+    
     .accordion-item:first-of-type>.accordion-header .accordion-button {
         border-top-left-radius: 20px !important;
         border-top-right-radius: 20px !important;
     }
+
     .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
         border-bottom-right-radius:   20px !important; 
          border-bottom-left-radius:  20px !important;
     }
+
      .MoreInfoDiv{
       display: none;
      }
