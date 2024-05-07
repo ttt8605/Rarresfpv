@@ -166,7 +166,7 @@ font-size: 1.1em;
     justify-content: space-evenly;
 }
 
-#dropDown{
+#accordionFlushExample{
  display: none;
 }
 
@@ -313,10 +313,63 @@ a{
          border-bottom-right-radius: 20px;
      }
 
-     #dropDown{
-        display: block;
+     #accordionExample{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
      }
-     
+
+     #accordion{
+        margin-top: 20px;
+        width: 500px;
+        border-radius: 20px;
+        /* border-style: solid;
+        border-color: #468faf; */
+        background-color: #373737;
+     }
+
+     .accordion-item{
+        margin-top: 20px;
+        width: 500px;
+        background-color: purple;
+     }
+
+     .accordion-button{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: #3A8AC3;
+        /* border-style: solid 0.3px !important; */
+        /* border-color: #468faf !important; */
+        background-color: green;
+     }
+
+     /* .accordion-button.collapsed {
+        border-style: solid 0.3px;
+        border-color: #468faf;
+        background-color: #373737;
+     } */
+
+     .accordion-body{
+        background-color: #373737;
+        color: #f2f2f2;
+        border-radius: 20px;
+     }
+
+     .accordion-button:not(.collapsed){
+        background-color: #373737 !important;
+        /* border-radius: 20px; */
+    }
+
+    .accordion-button.collapsed{
+        background-color: #373737 !important;
+        border-radius: 20px;
+    }
+    
+     .MoreInfoDiv{
+      display: none;
+     }
+
      #toggle {
         margin-top: 10px;
         margin-right: 15px;
@@ -330,7 +383,6 @@ a{
      .container-fluid{
         width: 100%;
         height: 90px;
-       
      }
 
       #list {
