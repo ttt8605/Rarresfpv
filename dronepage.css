@@ -96,6 +96,16 @@ header{
 .droneSection2{
   display: none;
 }
+/* invidualDronepage */
+.droneSection3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 100%;  /* old: width: 90% */
+}
 
 .leftDiv{
     width: 500px;
