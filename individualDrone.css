@@ -15,6 +15,11 @@ header{
     height: 130px;
 }
 
+
+.accordion{
+    display: none;
+}
+
 .offcanvas-body{
    margin-top: 50px;
    background-color: #212529;
@@ -76,19 +81,7 @@ header{
   margin-bottom: 150px;
 }
 
-.droneSection{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    width: 100%;  /* old: width: 90% */
-}
-.droneSection2{
-  display: none;
-}
-
+/* invidualDronepage */
 .droneSection3{
     display: flex;
     flex-wrap: wrap;
@@ -96,7 +89,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 100px;
-    width: 100%;  /* old: width: 90% */
+    /* width: 100%;  old: width: 90% */
 }
 
 .leftDiv{
@@ -107,7 +100,7 @@ header{
     background-size: cover; /* You can use other values like 'contain' or specific dimensions */
     background-position: center; /* You can adjust the positioning as needed */
     background-repeat: no-repeat; /* Prevent the image from repeating if it's smaller than the div */
-    /* margin-top: 20px; */
+    margin-top: 20px;
 }
 
 .rightDiv{
@@ -119,6 +112,72 @@ header{
     flex-direction: column ;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.MoreInfoDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 1100px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #373737;
+    border: solid 1px;
+    border-color: #3A8AC3;
+}
+
+.IncludedIn{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    color: #f2f2f2;
+    font-size: 1.2em;
+    padding-left: 100px;
+}
+
+.Specifications{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    color: #f2f2f2;
+    padding-left: 20px;
+}
+
+.Specifications p{
+font-size: 1.1em;
+}
+
+.IncludedInTitle{
+    color: #3A8AC3;
+    font-size: 1.8em;
+}
+
+.Manipulating{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#accordionFlushExample{
+ display: none;
+}
+
+.SpecificationsTitle{
+    color: #3A8AC3;
+    font-size: 1.9em;
 }
 
 .a{
@@ -233,31 +292,11 @@ a{
    margin-bottom: 0rem;  
   }
 
-
 /* GENERAL ELEMENTS */
 @media(max-width: 1222px) {
     .profile {
     height: 290px;
     width: 290px;
-    }
-
-    .droneSection2{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 100px;
-        width: 100%;  /* old: width: 90% */
-    }
-
-    .droneSection{
-        display: none;
-    }
-
-    .rightDiv{  /* test */
-        position: relative;
-        top: -25px;
     }
 }
 
@@ -276,6 +315,79 @@ a{
          display: block;
          border-bottom-left-radius: 20px;
          border-bottom-right-radius: 20px;
+     }
+
+     #accordionExample{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     #accordion{
+        margin-top: 20px;
+        width: 500px;
+        border-radius: 20px;
+        /* border-style: solid;
+        border-color: #468faf; */
+        background-color: #373737;
+     }
+
+     .accordion{
+        --bs-accordion-border-color: #3A8AC3;
+     }
+
+     .accordion-item{
+        margin-top: 20px;
+        width: 500px;
+        background-color: purple;
+     }
+
+     .accordion-button{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #3A8AC3;
+        /* border-style: solid 0.3px !important; */
+        /* border-color: #468faf !important; */
+   
+     }
+
+     /* .accordion-button.collapsed {
+        border-style: solid 0.3px;
+        border-color: #468faf;
+        background-color: #373737;
+     } */
+
+     .accordion-body{
+        background-color: #373737;
+        color: #f2f2f2;
+        border-radius: 20px;
+     }
+
+     .accordion-button:not(.collapsed){
+        background-color: #373737 !important;
+        color: #3A8AC3;
+        /* border-radius: 20px; */
+    }
+
+    .accordion-button.collapsed{
+        background-color: #373737 !important;
+        border-radius: 20px;
+    }
+    
+    .accordion-item:first-of-type>.accordion-header .accordion-button {
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+
+    .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+        border-bottom-right-radius:   20px !important; 
+         border-bottom-left-radius:  20px !important;
+    }
+
+     .MoreInfoDiv{
+      display: none;
      }
 
      #toggle {
@@ -299,6 +411,11 @@ a{
 
     .social{
       width: 220px;
+    }
+
+    .leftDiv{
+        margin-bottom: 35px;
+        margin-top: 0px;
     }
 }
 
@@ -340,6 +457,7 @@ a{
 
      .footerText{
       font-size: 13px;
+   
      }
 
      .social{
@@ -412,6 +530,11 @@ a{
     #a{
       margin-top: 5px;
     }
+    
+    #noughty-div{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 }
 
 @media(max-width:700px){
@@ -421,30 +544,43 @@ a{
 }
 
 @media(max-width:570px){
+    #mobile1{
+    position: relative;
+    top: 25px;
+    }
+
+    #mobile2{
+     position: relative;
+     top: 20px;
+    }
+
+    #accordion{
+      width: 370px;
+    }
+
     .a{
         width: 350px;
         position: relative;
     }
 
     .droneName{
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     .droneWidth{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     /* !!!!!!! */
     .leftDiv{
         width: 370px; /* 330 */
         height: 330px;  /* 300*/
+   
     }
 
     .rightDiv{
         width: 370px;
-        height: 270px; /* 300 */
-        position: relative;  /* test */
-        top: 15px;
+        height: 300px;
     }
 
     .secondDiv{
@@ -478,15 +614,13 @@ p{
 #leftDiv{
     margin-top: 0px;
 }
-
 }
 
-/* @media(max-width:450px){
+@media(max-width:40px){
   
-} */
+}
 
 /* @media(max-width: 360px){
 
 } */
-
 
