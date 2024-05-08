@@ -271,6 +271,11 @@ a{
     #meniu1{
         display: none;
     }
+
+    #naughty-div{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
     
     #meniu2{               
          display: block;
