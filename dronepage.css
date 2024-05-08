@@ -441,19 +441,19 @@ a{
 
     /* !!!!!!! */
     .leftDiv{
-        width: 370px; /* 330 */
+        width: 343px; /* 330 */
         height: 330px;  /* 300*/
     }
 
     .rightDiv{
-        width: 370px;
+        width: 360px;
         height: 270px; /* 300 */
         position: relative;  /* test */
         top: 15px;
     }
 
     .secondDiv{
-        width: 370px;
+        width: 340px;
         height: 300px;
     }
 
@@ -486,12 +486,36 @@ p{
 
 }
 
-/* @media(max-width:450px){
-  
-} */
 
-/* @media(max-width: 360px){
 
-} */
+@media(max-width: 370px){
+    .leftDiv {
+        width: 277px;
+        height: 197px;
+    }
+    .secondDiv {
+        width: 277px;
+        height: 295px;
+    }
+    .SecondTitle {
+        font-size: 0.9em;
+    }
+    .a {
+        width: 257px;
+        position: relative;
+    }
+    .droneWidth {
+        font-size: 1.3em;
+    }
+    .droneName {
+        font-size: 1.5em;
+    }
+    .rightDiv {
+        width: 258px;
+        height: 270px;
+        position: relative;
+        top: 15px;
+    }
+}
 
 

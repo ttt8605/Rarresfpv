@@ -522,8 +522,43 @@ p{
 
 } */
 
-@media(max-width: 360px){
+@media(max-width: 370px){
+    .leftDiv {
+        width: 277px;
+        height: 197px;
+    }
+    .secondDiv {
+        width: 277px;
+        height: 295px;
+    }
+  
+    #wrapper:nth-last-child(2) {
+        margin-bottom: 100px;
+    }
+   
+    .SecondTitle {
+        font-size: 0.9em;
+    }
+    .a {
+        width: 257px;
+        position: relative;
+    }
+    .droneWidth {
+        font-size: 1.3em;
+    }
+    .droneName {
+        font-size: 1.5em;
+    }
+    .rightDiv {
+        width: 258px;
+        height: 270px;
+        position: relative;
+        top: 15px;
+    }
 
+    #footer{
+        width: 102%;
+    }
 }
 
 
