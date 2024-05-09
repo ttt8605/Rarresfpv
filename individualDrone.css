@@ -15,9 +15,6 @@ header{
     height: 130px;
 }
 
-
-
-
 .offcanvas-body{
    margin-top: 50px;
    background-color: #212529;
@@ -34,8 +31,6 @@ header{
    color: #f2f2f2 !important;
 }
 
-
-
 #accordionExample{
     display: flex;
     flex-direction: row;
@@ -45,12 +40,9 @@ header{
  }
  @media(min-width: 1400px) {
     #accordionExample{
-       
         margin: 51px;
      }
 }
-
-
     
  #accordion{
     margin-top: 20px;
@@ -336,12 +328,17 @@ a{
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-    
     }
+
     #accordionExample{
         margin:0px;
     }
+
+    .a{
+        margin-top: 15px;
+    }
 }
+
 @media(max-width:1024px){
 .social{
     width: 215px;
@@ -384,7 +381,6 @@ a{
     }
 
     .leftDiv{
-        margin-bottom: 35px;
         margin-top: 0px;
     }
 }

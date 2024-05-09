@@ -13,8 +13,7 @@ header{
     align-items: center;
     position: relative;
     width: 100%;
-    height: 130px;
-    
+    height: 130px;   
 }
 
 .offcanvas-body{
@@ -64,19 +63,6 @@ header{
     height: 310px;
     width: 310px;
 }
-
-/* #wrapper{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#wrapper:nth-last-child(2){
-  margin-bottom: 150px;
-} */
 
 .projectSection{
     display: flex;
@@ -131,18 +117,9 @@ a{
 
 .drone{
     margin-top: 5px;
-    color: #f2f2f2;
+    color: rgba(217, 217, 217, 0.5);
     font-size: 1.5em;
 }
-
-/* .secondDiv{
-    width: 500px;
-    height: 300px;
-    background-color:#373737 ;
-    border: solid 1px;
-    border-color: #3A8AC3;
-    border-radius: 20px;
-} */
 
 .lowerSection{
     width: 90%;
@@ -150,27 +127,11 @@ a{
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: medium;
-    margin-right: 10px;
     color: #f2f2f2;
     position: relative;
     top: 80px;
+    left: -18px;
 }
-
-/* asta era un id pentru numele dronei din "shot with.."*/
-/* #drone{     
-    font-family:'Russo One';
-    color: #3A8AC3;
-} */
-
-/* .upperSection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 90px;
-}
-*/
 
 .letsWork {
     margin-top: 150px;
@@ -180,7 +141,7 @@ a{
     flex-direction: row;
     width: 80%;
     position: relative;
-    left: 120px; 
+    left: 100px; 
     margin-bottom: 150px;
 }
 
@@ -291,12 +252,11 @@ a{
     .social{
       width: 220px;
     }
-
+/* 
     .letsWork {
         margin-top: 80px;
-  
         margin-bottom: 80px;
-    }
+    } */
 }
 
 @media(max-width:767px){
@@ -337,12 +297,10 @@ a{
 
      .footerText{
       font-size: 13px;
-   
      }
 
      .social{
       width: 200px;
-  
      }
 
      .media{
@@ -393,8 +351,8 @@ a{
     }
 
      .profile{
-         height: 230px;  
-         width: 230px; 
+         height: 190px;  
+         width: 190px; 
      }
 }
 
@@ -406,6 +364,11 @@ a{
     top: -50px;
     left: -16px;
 }
+
+.a{
+    position: relative;
+    top: -60px;
+}
 }
 
 @media(max-width:911px){
@@ -413,13 +376,11 @@ a{
     position: relative;
     left: 70px;
   }
+
   #noughty-div{
-
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
         }
-
     }
 
 
@@ -449,11 +410,11 @@ a{
     }
 
     .projectName{
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
 
     .drone{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     /* !!!!!!! */
@@ -467,13 +428,11 @@ a{
     .rightDiv{
         width: 350px;
         height: 300px;
-       
     } 
 
     .secondDiv{
         width: 370px;
         height: 300px;
-   
     }
 
 .lowerSection{
@@ -494,19 +453,8 @@ p{
 
 @media(max-width: 500px){
     .a{
-        width: 350px;
-        position: relative;
-        left: 20px;
+     width: 350px;
     }
-
-    .lowerSection{
-      position: relative;
-      left: -1px;
-    
-    }
-
- 
-
 
     .proposal {
         font-size: 2em;
@@ -527,6 +475,7 @@ p{
         width: 277px;
         height: 197px;
     }
+
     .secondDiv {
         width: 277px;
         height: 295px;
@@ -539,16 +488,19 @@ p{
     .SecondTitle {
         font-size: 0.9em;
     }
+
     .a {
         width: 257px;
-        position: relative;
     }
+
     .droneWidth {
         font-size: 1.3em;
     }
+
     .droneName {
         font-size: 1.5em;
     }
+
     .rightDiv {
         width: 258px;
         height: 270px;

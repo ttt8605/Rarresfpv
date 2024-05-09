@@ -111,7 +111,7 @@ header{
     margin-top: 30px;
     margin-right: 20px;
     position: relative;
-    left: 70px;
+    left: 50px;
 }
 
 .projectIntro{
@@ -159,14 +159,14 @@ header{
 
   .img1Text{
     font-family: 'Roboto',sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 15px;
     color: #f2f2f2;
     margin-right: 20px;
     position: relative;
     top: 385px;
     left: 43px;
-    width: 600px;
+    width: 80%;
 }
 
 
@@ -343,7 +343,7 @@ header{
 
 @media(max-width: 1222px) {
     .profileText{
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .profile {
@@ -354,26 +354,21 @@ header{
     }
 }
 
-@media(max-width: 1187px){
- .profile{
+/* @media(max-width: 1187px){
+ /* .profile{
     height: 220px;
     width: 220px;
- }
+ } */
 
- .profileText {
+ /* .profileText {
     font-size: 19px;
- }
-}
+ } 
+} */
 
 @media(max-width:1024px){
-.profileText{
+/* .profileText{
   font-size: 20px;
-}
-
-.img1Text{
-    font-size: 13px;
-    width: 354px;
-}
+} */
 
 .social{
     width: 215px;
@@ -381,10 +376,10 @@ header{
 }
 
 @media(max-width: 991px) {
-  .profile{
+  /* .profile{
     height: 200px;
     width: 200px;
-  }
+  } */
 
   .profileText{
     font-size: 18px;
@@ -435,7 +430,7 @@ header{
     }
 
     .profileText{
-        font-size: 15px;
+        font-size: 17px;
         width: 500px;
         margin-top: 30px; 
         position: relative; 
@@ -458,10 +453,6 @@ header{
 }
 
 @media(max-width:767px){
-      #toggle{
-        background-color: #373737;
-     } 
- 
      #closeBtn {
        background-color: #FFD166;
      }
@@ -476,6 +467,10 @@ header{
 
      #contactButton{
         font-size: large;
+     }
+
+     .img1Text{
+        font-size: 14px;
      }
  }
 
@@ -493,19 +488,17 @@ header{
     }
 
     header{
-        height: 545px;
+        height: 550px;
     }
     
     .profile{
-        height: 270px;
-         width: 270px;
+        height: 240px;
+         width: 240px;
     }
 
-    /* .profileText {
-         font-size: 12px;
-         width: 422px;
-         margin-top: 47px;
-     } */
+    .profileText{
+        font-size: 15px;
+    }
 
   .img2:first-child{
     margin-right: 0px;
@@ -537,7 +530,7 @@ header{
     }
 
     .proposal{
-        font-size: 1.8em;
+        font-size: 2em;
      }
 
     #contactButton{
@@ -554,10 +547,8 @@ header{
     }
 
      .img1Text{
-         font-size: 12px;
-         width: 300px;
-         display: flex;
-         align-content: flex-start;
+         position: relative;
+         left: 30px;
     }
 
     .twoImgRow{
@@ -571,15 +562,7 @@ header{
     .img2Text{
         top: 105px;
     }
-  
-     /* #hl{
-       text-decoration: none;
-       color: #252525;
-       font-family: 'Roboto', sans-serif;
-       font-weight: 300;
-       font-size: 17px;
-     } */
-
+ 
      .AddMoreButton{
         width: 125px;
         height: 40px;
@@ -667,12 +650,12 @@ header{
     .media{
      width: 19px;
      }
-}
+    }
 
 @media(max-width: 500px){
     .profileText{
         width: 370px;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .projectTitle{
@@ -680,27 +663,22 @@ header{
     }
 
     .proposal{
-        font-size: 1.8em;
+        font-size: 1.9em;
      }
 }
 
 @media(max-width:450px){
-    /* .but1{
-     width: 100px;
-     height: 31px;
-     border-radius:8px;
-    } */
     #meniu2{
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     } 
+
     header{
         height: 500px;
     }
 
     .container-fluid{
         height: 87px;
-        
     }
 
     #title{
@@ -718,7 +696,7 @@ header{
      }
 
      .profileText {
-         font-size: 12px;
+         font-size: 13px;
          width: 297px;
          margin-top: 0px;
          text-align: center;
@@ -744,7 +722,7 @@ header{
     }
 
     .proposal{
-        font-size: 1.7em;
+        font-size: 1.8em;
      }
      
      .img1 {
@@ -754,7 +732,6 @@ header{
 
      .img1Text {
          font-size: 11px;
-         width: 209px;
          position: relative;
          top: 223px;
          left: 26px;
