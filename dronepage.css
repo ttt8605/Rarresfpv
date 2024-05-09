@@ -493,23 +493,29 @@ p{
         width: 277px;
         height: 197px;
     }
+
     .secondDiv {
         width: 277px;
         height: 295px;
     }
+
     .SecondTitle {
         font-size: 0.9em;
     }
+
     .a {
         width: 257px;
         position: relative;
     }
+
     .droneWidth {
         font-size: 1.3em;
     }
+
     .droneName {
         font-size: 1.5em;
     }
+    
     .rightDiv {
         width: 258px;
         height: 270px;
