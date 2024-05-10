@@ -160,6 +160,10 @@ header{
     margin-top: 100px;
     /* width: 100%;  old: width: 90% */
 }
+.droneSection2{
+    display: none;
+  }
+  
 
 .leftDiv{
     width: 500px;
@@ -319,6 +323,21 @@ a{
     height: 290px;
     width: 290px;
     }
+
+    .droneSection2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        width: 100%;  /* old: width: 90% */
+    }
+
+    .droneSection{
+        display: none;
+    }
+
 }
 
 @media(max-width:1200px){
@@ -547,6 +566,7 @@ a{
     .rightDiv{
         width: 370px;
         height: 300px;
+        margin-top: 50px;
     }
 
     .secondDiv{
